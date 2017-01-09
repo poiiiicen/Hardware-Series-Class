@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Generate_Control.v -lang verilog -prj Project_Blocks -o Generate_Control.spl -module Generate_Control -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Generate_Control.spl C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Generate_Control.sym 

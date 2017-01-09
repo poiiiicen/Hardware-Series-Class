@@ -1,0 +1,37 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame_Frame_sch_tb_isim_beh.exe -prj C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame_Frame_sch_tb_beh.prj work.Frame_Frame_sch_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/generate_block.v" into library work
+Analyzing Verilog file "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/SEnter_2_32_IO.v" into library work
+Analyzing Verilog file "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/SAnti_jitter_IO.v" into library work
+Analyzing Verilog file "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Random_Block_Generate.v" into library work
+Analyzing Verilog file "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/P2S_IO.v" into library work
+Analyzing Verilog file "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Judge.v" into library work
+Analyzing Verilog file "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Control.v" into library work
+Analyzing Verilog file "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/clkdiv.v" into library work
+Analyzing Verilog file "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.vf" into library work
+Analyzing Verilog file "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame_test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module clkdiv
+Compiling module SAnti_jitter
+Compiling module SEnter_2_32
+Compiling module VCC
+Compiling module GND
+Compiling module BUF
+Compiling module P2S
+Compiling module generate_block
+Compiling module Random_Block_Generate
+Compiling module Control
+Compiling module Judge
+Compiling module Frame
+Compiling module Frame_Frame_sch_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 14 Verilog Units
+Built simulation executable C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame_Frame_sch_tb_isim_beh.exe
+Fuse Memory Usage: 28116 KB
+Fuse CPU Usage: 374 ms

@@ -1,0 +1,9 @@
+[Inputs]
+clk
+levelup
+[Outputs]
+=gene_time[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Generate_Control
+

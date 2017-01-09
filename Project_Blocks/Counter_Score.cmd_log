@@ -1,0 +1,4 @@
+vhdtdtfi -lib work C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Counter_Score.v -lang verilog -prj Project_Blocks -o Counter_Score.spl -module Counter_Score -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Counter_Score.spl C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Counter_Score.sym 
+vhdtdtfi -lib work C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Counter_Score.v -lang verilog -prj Project_Blocks -o Counter_Score.spl -module Counter_Score -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Counter_Score.spl C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Counter_Score.sym 

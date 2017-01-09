@@ -1,0 +1,10 @@
+[Inputs]
+clk
+rst
+=ctl[1:0]=
+[Outputs]
+=aim[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Control
+

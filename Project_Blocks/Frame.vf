@@ -1,0 +1,122 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Frame.vf
+// /___/   /\     Timestamp : 01/08/2017 17:37:52
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.vf -w C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.sch
+//Design Name: Frame
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Frame(clk_100mhz, 
+             K_COL, 
+             RSTN, 
+             SW, 
+             Buzzer, 
+             CR, 
+             K_ROW, 
+             RDY, 
+             readn, 
+             SEGCLk, 
+             SEGCLR, 
+             SEGDT, 
+             SEGEN);
+
+    input clk_100mhz;
+    input [3:0] K_COL;
+    input RSTN;
+    input [15:0] SW;
+   output Buzzer;
+   output CR;
+   output [4:0] K_ROW;
+   output RDY;
+   output readn;
+   output SEGCLk;
+   output SEGCLR;
+   output SEGDT;
+   output SEGEN;
+   
+   wire [7:0] blink;
+   wire [63:0] blocks;
+   wire [3:0] BTN_OK;
+   wire [63:0] Disp_num;
+   wire [31:0] Div;
+   wire G0;
+   wire [3:0] Pulse;
+   wire rst;
+   wire [15:0] SW_OK;
+   wire V5;
+   wire [4:0] XLXN_2;
+   wire [7:0] XLXN_189;
+   wire RDY_DUMMY;
+   wire readn_DUMMY;
+   
+   assign RDY = RDY_DUMMY;
+   assign readn = readn_DUMMY;
+   clkdiv  M1 (.clk(clk_100mhz), 
+              .rst(rst), 
+              .clkdiv(Div[31:0]));
+   SAnti_jitter  M2 (.clk(clk_100mhz), 
+                    .Key_y(K_COL[3:0]), 
+                    .readn(readn_DUMMY), 
+                    .RSTN(RSTN), 
+                    .SW(SW[15:0]), 
+                    .BTN_OK(BTN_OK[3:0]), 
+                    .CR(CR), 
+                    .Key_out(XLXN_2[4:0]), 
+                    .Key_ready(RDY_DUMMY), 
+                    .Key_x(K_ROW[4:0]), 
+                    .pulse_out(Pulse[3:0]), 
+                    .rst(rst), 
+                    .SW_OK(SW_OK[15:0]));
+   SEnter_2_32  M4 (.BTN(BTN_OK[2:0]), 
+                   .clk(clk_100mhz), 
+                   .Ctrl({SW_OK[7:5], SW_OK[15], SW_OK[0]}), 
+                   .Din(XLXN_2[4:0]), 
+                   .D_ready(RDY_DUMMY), 
+                   .Ai(), 
+                   .Bi(), 
+                   .blink(blink[7:0]), 
+                   .readn(readn_DUMMY));
+   VCC  XLXI_26 (.P(V5));
+   GND  XLXI_27 (.G(G0));
+   BUF  XLXI_29 (.I(V5), 
+                .O(Buzzer));
+   P2S  XLXI_33 (.clk(clk_100mhz), 
+                .P_Data(Disp_num[63:0]), 
+                .rst(rst), 
+                .Serial(Div[20]), 
+                .EN(SEGEN), 
+                .sout(SEGDT), 
+                .s_clk(SEGCLk), 
+                .s_clrn(SEGCLR));
+   Random_Block_Generate  XLXI_36 (.clk(clk_100mhz), 
+                                  .gene_time({G0, G0, G0, G0, G0, G0, G0, G0, 
+         G0, G0, G0, G0, G0, G0, G0, G0, G0, G0, G0, G0, G0, G0, G0, G0, G0, 
+         G0, G0, G0, G0, G0, V5, V5}), 
+                                  .random(Div[1:0]), 
+                                  .rst(rst), 
+                                  .Disp_num(blocks[63:0]));
+   Control  XLXI_37 (.clk(clk_100mhz), 
+                    .ctl(BTN_OK[1:0]), 
+                    .rst(rst), 
+                    .aim(XLXN_189[7:0]));
+   Judge  XLXI_38 (.aim(XLXN_189[7:0]), 
+                  .blocks(blocks[63:0]), 
+                  .clk(clk_100mhz), 
+                  .rst(rst), 
+                  .Disp_num(Disp_num[63:0]), 
+                  .gameover());
+endmodule
