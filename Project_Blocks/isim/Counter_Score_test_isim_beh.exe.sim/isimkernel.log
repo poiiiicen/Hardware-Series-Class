@@ -2,14 +2,14 @@ Command line:
    Counter_Score_test_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  5728
+     -socket  11022
 
-Tue Jan 10 03:51:34 2017
+Tue Jan 10 15:57:50 2017
 
 
  Elaboration Time: 0.0625 sec
 
- Current Memory Usage: 851.431 Meg
+ Current Memory Usage: 851.476 Meg
 
  Total Signals          : 19
  Total Nets             : 49
@@ -20,9 +20,9 @@ Tue Jan 10 03:51:34 2017
  Total Traceable Variables  : 22
  Total Scalar Nets and Variables : 164
 
- Total Simulation Time: 0.0625 sec
+ Total Simulation Time: 0.078125 sec
 
- Current Memory Usage: 1166 Meg
+ Current Memory Usage: 694.19 Meg
 
-Tue Jan 10 03:52:27 2017
+Tue Jan 10 16:03:16 2017
 

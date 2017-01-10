@@ -25,7 +25,7 @@
 module Generate_Control_test;
 
 	// Inputs
-	reg clk;
+	reg rst;
 	reg levelup;
 
 	// Outputs
@@ -33,21 +33,29 @@ module Generate_Control_test;
 
 	// Instantiate the Unit Under Test (UUT)
 	Generate_Control uut (
-		.clk(clk), 
+		.rst(rst), 
 		.levelup(levelup), 
 		.gene_time(gene_time)
 	);
 
 	initial begin
 		// Initialize Inputs
-		clk = 0;
+		rst = 0;
 		levelup = 0;
 
 		// Wait 100 ns for global reset to finish
 		#100;
         
 		// Add stimulus here
-
+		fork
+			forever #20 levelup = ~levelup;
+			begin
+				rst = 1;
+				#100;
+				rst = 0;
+				#100;
+			end
+		join
 	end
       
 endmodule

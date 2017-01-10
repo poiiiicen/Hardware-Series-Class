@@ -28,7 +28,6 @@ module Random_Block_Generate_test;
 	reg clk;
 	reg rst;
 	reg [31:0] gene_time;
-	reg [1:0] random;
 
 	// Outputs
 	wire [63:0] Disp_num;
@@ -38,7 +37,6 @@ module Random_Block_Generate_test;
 		.clk(clk), 
 		.rst(rst), 
 		.gene_time(gene_time), 
-		.random(random), 
 		.Disp_num(Disp_num)
 	);
 
@@ -47,7 +45,6 @@ module Random_Block_Generate_test;
 		clk = 0;
 		rst = 1;
 		gene_time = 0;
-		random = 0;
 
 		// Wait 100 ns for global reset to finish
 		#100;
@@ -58,7 +55,6 @@ module Random_Block_Generate_test;
 		fork
 			forever #20 clk = ~clk;
 			begin
-				random = 2'b01;
 				#100;
 				rst = 1;
 				#100;
