@@ -23,22 +23,27 @@ module Control(input clk,
 					input [1:0] ctl,
 					output reg[7:0] aim = 8'b00000010
     );
+reg[3:0] sample;
 always @(posedge clk or posedge rst) begin
 	if (rst) begin
 		aim <= 8'b00000010;
+		sample <= 0;
 	end
 	else begin
-		if (ctl == 2'b01) begin
-			if (aim == 8'b10000000) aim <= 8'b10000000;
-			else if (aim == 8'b00000010) aim <= 8'b10000000;
-			else if (aim == 8'b00010000) aim <= 8'b00000010;
+		sample <= {sample[1:0], ctl};
+		if (sample[3:2] != sample[1:0]) begin
+			if (ctl == 2'b01) begin
+				if (aim == 8'b10000000) aim <= 8'b10000000;
+				else if (aim == 8'b00000010) aim <= 8'b10000000;
+				else if (aim == 8'b00010000) aim <= 8'b00000010;
+			end
+			else if (ctl == 2'b10) begin
+				if (aim == 8'b10000000) aim <= 8'b00000010;
+				else if (aim == 8'b00000010) aim <= 8'b00010000;
+				else if (aim == 8'b00010000) aim <= 8'b00010000;
+			end
+			else aim <= aim;
 		end
-		else if (ctl == 2'b10) begin
-			if (aim == 8'b10000000) aim <= 8'b00000010;
-			else if (aim == 8'b00000010) aim <= 8'b00010000;
-			else if (aim == 8'b00010000) aim <= 8'b00010000;
-		end
-		else aim <= aim;
 	end
 end
 

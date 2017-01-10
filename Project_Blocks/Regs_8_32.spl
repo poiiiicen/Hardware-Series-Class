@@ -2,10 +2,12 @@
 clk
 cr
 WE
-=Addr_W[2:0]=
+=Addr_W1[2:0]=
+=Addr_W2[2:0]=
 =Addr_A[2:0]=
 =Addr_B[2:0]=
-=Di[31:0]=
+=Di1[31:0]=
+=Di2[31:0]=
 [Outputs]
 =QA[31:0]=
 =QB[31:0]=

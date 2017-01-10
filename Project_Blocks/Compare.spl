@@ -1,0 +1,14 @@
+[Inputs]
+clk
+=A[31:0]=
+=B[31:0]=
+[Outputs]
+EN
+=W1[2:0]=
+=W2[2:0]=
+=D1[31:0]=
+=D2[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Compare
+

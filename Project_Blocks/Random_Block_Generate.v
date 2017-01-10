@@ -30,7 +30,7 @@ reg[31:0] counter = 0;
 reg[63:0] num = 0;
 wire[7:0] new_block;
 
-assign Disp_num = {new_block, num[56:0]};
+assign Disp_num = {new_block, num[55:0]};
 
 generate_block new_b(EN, random, new_block);
 
@@ -42,7 +42,7 @@ always @(posedge clk or posedge clk) begin
 	else begin
 		if (counter == gene_time) begin
 			counter <= 0;
-			num[56:0] <= Disp_num[63:8];
+			num[55:0] <= Disp_num[63:8];
 			EN <= 1;
 		end
 		else begin

@@ -1,5 +1,4 @@
 [Inputs]
-clk
 levelup
 [Outputs]
 =gene_time[31:0]=

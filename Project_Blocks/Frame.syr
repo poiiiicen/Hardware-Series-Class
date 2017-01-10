@@ -105,28 +105,93 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\MUX4T1_4.vf" into library work
+Parsing module <MUX4T1_4>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\MB_DFF.vf" into library work
+Parsing module <MB_DFF>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\MUX8T1_8.vf" into library work
+Parsing module <MUX4T1_4_MUSER_MUX8T1_8>.
+Parsing module <MUX8T1_8>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\DM74LS194.v" into library work
+Parsing module <DM74LS194>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Decoder_38.vf" into library work
+Parsing module <Decoder_38>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Shift_32.v" into library work
+Parsing module <Shift_32>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Seg_map.vf" into library work
+Parsing module <MUX4T1_4_MUSER_Seg_map>.
+Parsing module <Seg_map>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\ScanSync.vf" into library work
+Parsing module <MUX4T1_4_MUSER_ScanSync>.
+Parsing module <MUX8T1_8_MUSER_ScanSync>.
+Parsing module <ScanSync>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Reg_32.v" into library work
+Parsing module <Reg_32>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\MUXHM.vf" into library work
+Parsing module <MUXHM>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\MUX8T1_32.vf" into library work
+Parsing module <MUX4T1_4_MUSER_MUX8T1_32>.
+Parsing module <MUX8T1_8_MUSER_MUX8T1_32>.
+Parsing module <MUX8T1_32>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\MC14495_ZJU.vf" into library work
+Parsing module <MC14495_ZJU>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\LED_P2S_IO.v" into library work
+Parsing module <LED_P2S>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\HCT138.vf" into library work
+Parsing module <Decoder_38_MUSER_HCT138>.
+Parsing module <HCT138>.
 Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\generate_block.v" into library work
 Parsing module <generate_block>.
 Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\SEnter_2_32_IO.v" into library work
 Parsing module <SEnter_2_32>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Seg7_Dev.vf" into library work
+Parsing module <MC14495_ZJU_MUSER_Seg7_Dev>.
+Parsing module <MUXHM_MUSER_Seg7_Dev>.
+Parsing module <MUX4T1_4_MUSER_Seg7_Dev>.
+Parsing module <Seg_map_MUSER_Seg7_Dev>.
+Parsing module <MUX8T1_8_MUSER_Seg7_Dev>.
+Parsing module <ScanSync_MUSER_Seg7_Dev>.
+Parsing module <Seg7_Dev>.
 Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\SAnti_jitter_IO.v" into library work
 Parsing module <SAnti_jitter>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Regs_8_32.v" into library work
+Parsing module <Regs_8_32>.
 Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Random_Block_Generate.v" into library work
 Parsing module <Random_Block_Generate>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\PIO.v" into library work
+Parsing module <PIO>.
 Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\P2S_IO.v" into library work
 Parsing module <P2S>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\MUX2T1_32.v" into library work
+Parsing module <MUX2T1_32>.
 Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Judge.v" into library work
 Parsing module <Judge>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\GPIO.v" into library work
+Parsing module <GPIO>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Generate_Control.v" into library work
+Parsing module <Generate_Control>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Counter_Score.v" into library work
+Parsing module <Counter_Score>.
 Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Control.v" into library work
 Parsing module <Control>.
+Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Compare.v" into library work
+Parsing module <Compare>.
 Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\clkdiv.v" into library work
 Parsing module <clkdiv>.
 Analyzing Verilog file "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" into library work
+Parsing module <MC14495_ZJU_MUSER_Frame>.
+Parsing module <MUXHM_MUSER_Frame>.
+Parsing module <MUX4T1_4_MUSER_Frame>.
+Parsing module <Seg_map_MUSER_Frame>.
+Parsing module <MUX8T1_8_MUSER_Frame>.
+Parsing module <ScanSync_MUSER_Frame>.
+Parsing module <Seg7_Dev_MUSER_Frame>.
 Parsing module <Frame>.
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
+WARNING:HDLCompiler:1016 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" Line 944: Port rst is not connected to this instance
 
 Elaborating module <Frame>.
 
@@ -134,11 +199,11 @@ Elaborating module <clkdiv>.
 
 Elaborating module <SAnti_jitter>.
 WARNING:HDLCompiler:1499 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\SAnti_jitter_IO.v" Line 21: Empty module <SAnti_jitter> remains a black box.
-WARNING:HDLCompiler:1127 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" Line 81: Assignment to Pulse ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" Line 864: Assignment to Pulse ignored, since the identifier is never used
 
 Elaborating module <SEnter_2_32>.
 WARNING:HDLCompiler:1499 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\SEnter_2_32_IO.v" Line 21: Empty module <SEnter_2_32> remains a black box.
-WARNING:HDLCompiler:1127 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" Line 91: Assignment to blink ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" Line 874: Assignment to blink ignored, since the identifier is never used
 
 Elaborating module <VCC>.
 
@@ -150,7 +215,6 @@ Elaborating module <P2S>.
 WARNING:HDLCompiler:1499 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\P2S_IO.v" Line 21: Empty module <P2S> remains a black box.
 
 Elaborating module <Random_Block_Generate>.
-WARNING:HDLCompiler:413 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Random_Block_Generate.v" Line 33: Result of 65-bit expression is truncated to fit in 64-bit target.
 
 Elaborating module <generate_block>.
 
@@ -158,17 +222,91 @@ Elaborating module <Control>.
 
 Elaborating module <Judge>.
 
+Elaborating module <Counter_Score>.
+WARNING:HDLCompiler:413 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Counter_Score.v" Line 28: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <Seg7_Dev_MUSER_Frame>.
+
+Elaborating module <MUXHM_MUSER_Frame>.
+
+Elaborating module <AND2>.
+
+Elaborating module <OR2>.
+
+Elaborating module <INV>.
+
+Elaborating module <MC14495_ZJU_MUSER_Frame>.
+
+Elaborating module <AND4>.
+
+Elaborating module <AND3>.
+
+Elaborating module <OR3>.
+
+Elaborating module <OR4>.
+
+Elaborating module <ScanSync_MUSER_Frame>.
+
+Elaborating module <MUX8T1_8_MUSER_Frame>.
+
+Elaborating module <MUX4T1_4_MUSER_Frame>.
+
+Elaborating module <Seg_map_MUSER_Frame>.
+
+Elaborating module <Regs_8_32>.
+
+Elaborating module <Reg_32>.
+
+Elaborating module <HCT138>.
+
+Elaborating module <Decoder_38_MUSER_HCT138>.
+
+Elaborating module <NAND2>.
+
+Elaborating module <MUX8T1_32>.
+
+Elaborating module <MUX8T1_8_MUSER_MUX8T1_32>.
+
+Elaborating module <MUX4T1_4_MUSER_MUX8T1_32>.
+
+Elaborating module <MUX2T1_32>.
+
+Elaborating module <Compare>.
+WARNING:HDLCompiler:413 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Compare.v" Line 32: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Compare.v" Line 37: Result of 4-bit expression is truncated to fit in 3-bit target.
+
+Elaborating module <Generate_Control>.
+
+Elaborating module <Shift_32>.
+
+Elaborating module <DM74LS194>.
+
+Elaborating module <MB_DFF>.
+
+Elaborating module <NAND3>.
+WARNING:HDLCompiler:189 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Generate_Control.v" Line 25: Size mismatch in connection of port <S1>. Formal port size is 1-bit while actual signal size is 32-bit.
+
+Elaborating module <GPIO>.
+
+Elaborating module <LED_P2S(DATA_BITS=16,DATA_COUNT_BITS=4)>.
+WARNING:HDLCompiler:1499 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\LED_P2S_IO.v" Line 21: Empty module <LED_P2S(DATA_BITS=16,DATA_COUNT_BITS=4)> remains a black box.
+
+Elaborating module <PIO>.
+WARNING:HDLCompiler:552 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" Line 944: Input port rst is not connected on this instance
+
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <Frame>.
     Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf".
-INFO:Xst:3210 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" line 71: Output port <pulse_out> of the instance <M2> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" line 84: Output port <Ai> of the instance <M4> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" line 84: Output port <Bi> of the instance <M4> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" line 84: Output port <blink> of the instance <M4> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" line 116: Output port <gameover> of the instance <XLXI_38> is unconnected or connected to loadless signal.
+WARNING:Xst:2898 - Port 'rst', unconnected in block instance 'XLXI_51', is tied to GND.
+INFO:Xst:3210 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" line 854: Output port <pulse_out> of the instance <M2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" line 867: Output port <Ai> of the instance <M4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" line 867: Output port <Bi> of the instance <M4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" line 867: Output port <blink> of the instance <M4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" line 946: Output port <GPIOf0> of the instance <XLXI_52> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf" line 958: Output port <GPIOf0> of the instance <XLXI_53> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <Frame> synthesized.
@@ -184,7 +322,6 @@ Unit <clkdiv> synthesized.
 
 Synthesizing Unit <Random_Block_Generate>.
     Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Random_Block_Generate.v".
-    Found 1-bit register for signal <num<56>>.
     Found 1-bit register for signal <num<55>>.
     Found 1-bit register for signal <num<54>>.
     Found 1-bit register for signal <num<53>>.
@@ -247,7 +384,7 @@ Synthesizing Unit <Random_Block_Generate>.
     Found 32-bit comparator equal for signal <counter[31]_gene_time[31]_equal_3_o> created at line 43
     Summary:
 	inferred   1 Adder/Subtractor(s).
-	inferred  90 D-type flip-flop(s).
+	inferred  89 D-type flip-flop(s).
 	inferred   1 Comparator(s).
 Unit <Random_Block_Generate> synthesized.
 
@@ -262,12 +399,13 @@ Unit <generate_block> synthesized.
 
 Synthesizing Unit <Control>.
     Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Control.v".
+    Found 4-bit register for signal <sample>.
     Found 8-bit register for signal <aim>.
     Found finite state machine <FSM_0> for signal <aim>.
     -----------------------------------------------------------------------
     | States             | 3                                              |
-    | Transitions        | 10                                             |
-    | Inputs             | 2                                              |
+    | Transitions        | 13                                             |
+    | Inputs             | 3                                              |
     | Outputs            | 3                                              |
     | Clock              | clk (rising_edge)                              |
     | Reset              | rst (positive)                                 |
@@ -277,7 +415,10 @@ Synthesizing Unit <Control>.
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
+    Found 2-bit comparator equal for signal <n0000> created at line 34
     Summary:
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Comparator(s).
 	inferred   1 Finite State Machine(s).
 Unit <Control> synthesized.
 
@@ -290,22 +431,186 @@ Synthesizing Unit <Judge>.
 	inferred   2 Multiplexer(s).
 Unit <Judge> synthesized.
 
+Synthesizing Unit <Counter_Score>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Counter_Score.v".
+    Found 32-bit register for signal <Score>.
+    Found 32-bit adder for signal <Score[31]_GND_15_o_add_2_OUT> created at line 37.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  32 D-type flip-flop(s).
+Unit <Counter_Score> synthesized.
+
+Synthesizing Unit <Seg7_Dev_MUSER_Frame>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf".
+    Summary:
+	no macro.
+Unit <Seg7_Dev_MUSER_Frame> synthesized.
+
+Synthesizing Unit <MUXHM_MUSER_Frame>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf".
+    Summary:
+	no macro.
+Unit <MUXHM_MUSER_Frame> synthesized.
+
+Synthesizing Unit <MC14495_ZJU_MUSER_Frame>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf".
+    Summary:
+	no macro.
+Unit <MC14495_ZJU_MUSER_Frame> synthesized.
+
+Synthesizing Unit <ScanSync_MUSER_Frame>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf".
+    Summary:
+	no macro.
+Unit <ScanSync_MUSER_Frame> synthesized.
+
+Synthesizing Unit <MUX8T1_8_MUSER_Frame>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf".
+    Summary:
+	no macro.
+Unit <MUX8T1_8_MUSER_Frame> synthesized.
+
+Synthesizing Unit <MUX4T1_4_MUSER_Frame>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf".
+    Summary:
+	no macro.
+Unit <MUX4T1_4_MUSER_Frame> synthesized.
+
+Synthesizing Unit <Seg_map_MUSER_Frame>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Frame.vf".
+WARNING:Xst:647 - Input <Scan<2:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <Seg_map_MUSER_Frame> synthesized.
+
+Synthesizing Unit <Regs_8_32>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Regs_8_32.v".
+    Summary:
+	no macro.
+Unit <Regs_8_32> synthesized.
+
+Synthesizing Unit <Reg_32>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Reg_32.v".
+    Found 32-bit register for signal <Q>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <Reg_32> synthesized.
+
+Synthesizing Unit <HCT138>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\HCT138.vf".
+    Summary:
+	no macro.
+Unit <HCT138> synthesized.
+
+Synthesizing Unit <Decoder_38_MUSER_HCT138>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\HCT138.vf".
+    Summary:
+	no macro.
+Unit <Decoder_38_MUSER_HCT138> synthesized.
+
+Synthesizing Unit <MUX8T1_32>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\MUX8T1_32.vf".
+    Summary:
+	no macro.
+Unit <MUX8T1_32> synthesized.
+
+Synthesizing Unit <MUX8T1_8_MUSER_MUX8T1_32>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\MUX8T1_32.vf".
+    Summary:
+	no macro.
+Unit <MUX8T1_8_MUSER_MUX8T1_32> synthesized.
+
+Synthesizing Unit <MUX4T1_4_MUSER_MUX8T1_32>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\MUX8T1_32.vf".
+    Summary:
+	no macro.
+Unit <MUX4T1_4_MUSER_MUX8T1_32> synthesized.
+
+Synthesizing Unit <MUX2T1_32>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\MUX2T1_32.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX2T1_32> synthesized.
+
+Synthesizing Unit <Compare>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Compare.v".
+    Found 3-bit register for signal <W2>.
+    Found 3-bit register for signal <W1>.
+    Found 3-bit adder for signal <W1[2]_GND_39_o_add_5_OUT> created at line 37.
+    Found 32-bit comparator greater for signal <sel> created at line 31
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   6 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <Compare> synthesized.
+
+Synthesizing Unit <Generate_Control>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Generate_Control.v".
+WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <Generate_Control> synthesized.
+
+Synthesizing Unit <Shift_32>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\Shift_32.v".
+WARNING:Xst:647 - Input <PData<5:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <Shift_32> synthesized.
+
+Synthesizing Unit <DM74LS194>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\DM74LS194.v".
+INFO:Xst:3210 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\DM74LS194.v" line 40: Output port <Qn> of the instance <M0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\DM74LS194.v" line 41: Output port <Qn> of the instance <M1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\DM74LS194.v" line 42: Output port <Qn> of the instance <M2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\DM74LS194.v" line 43: Output port <Qn> of the instance <M3> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <DM74LS194> synthesized.
+
+Synthesizing Unit <MB_DFF>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\MB_DFF.vf".
+    Summary:
+	no macro.
+Unit <MB_DFF> synthesized.
+
+Synthesizing Unit <GPIO>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\GPIO.v".
+    Found 32-bit register for signal <GPIOf0>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <GPIO> synthesized.
+
+Synthesizing Unit <PIO>.
+    Related source file is "C:\Users\poi\Repos\Logic-Computer-Design\Project_Blocks\PIO.v".
+    Found 32-bit register for signal <GPIOf0>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <PIO> synthesized.
+
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
 # RAMs                                                 : 1
  4x8-bit single-port Read Only RAM                     : 1
-# Adders/Subtractors                                   : 2
- 32-bit adder                                          : 2
-# Registers                                            : 63
- 1-bit register                                        : 59
- 32-bit register                                       : 2
+# Adders/Subtractors                                   : 4
+ 3-bit adder                                           : 1
+ 32-bit adder                                          : 3
+# Registers                                            : 76
+ 1-bit register                                        : 58
+ 3-bit register                                        : 2
+ 32-bit register                                       : 13
+ 4-bit register                                        : 1
  64-bit register                                       : 1
  8-bit register                                        : 1
-# Comparators                                          : 1
+# Comparators                                          : 3
+ 2-bit comparator equal                                : 1
  32-bit comparator equal                               : 1
-# Multiplexers                                         : 2
+ 32-bit comparator greater                             : 1
+# Multiplexers                                         : 12
+ 32-bit 2-to-1 multiplexer                             : 10
  64-bit 2-to-1 multiplexer                             : 2
 # FSMs                                                 : 1
 
@@ -318,17 +623,59 @@ Macro Statistics
 Reading core <SAnti_jitter.ngc>.
 Reading core <SEnter_2_32.ngc>.
 Reading core <P2S.ngc>.
+Reading core <LED_P2S.ngc>.
 Loading core <SAnti_jitter> for timing and area information for instance <M2>.
 Loading core <SEnter_2_32> for timing and area information for instance <M4>.
 Loading core <P2S> for timing and area information for instance <XLXI_33>.
-WARNING:Xst:1293 - FF/Latch <num_56> has a constant value of 0 in block <XLXI_36>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_48> has a constant value of 0 in block <XLXI_36>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_40> has a constant value of 0 in block <XLXI_36>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_32> has a constant value of 0 in block <XLXI_36>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_24> has a constant value of 0 in block <XLXI_36>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_16> has a constant value of 0 in block <XLXI_36>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_8> has a constant value of 0 in block <XLXI_36>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_0> has a constant value of 0 in block <XLXI_36>. This FF/Latch will be trimmed during the optimization process.
+Loading core <LED_P2S> for timing and area information for instance <LED_P2S>.
+WARNING:Xst:2677 - Node <GPIOf0_16> of sequential type is unconnected in block <XLXI_52>.
+WARNING:Xst:2677 - Node <GPIOf0_17> of sequential type is unconnected in block <XLXI_52>.
+WARNING:Xst:2677 - Node <GPIOf0_18> of sequential type is unconnected in block <XLXI_52>.
+WARNING:Xst:2677 - Node <GPIOf0_19> of sequential type is unconnected in block <XLXI_52>.
+WARNING:Xst:2677 - Node <GPIOf0_20> of sequential type is unconnected in block <XLXI_52>.
+WARNING:Xst:2677 - Node <GPIOf0_21> of sequential type is unconnected in block <XLXI_52>.
+WARNING:Xst:2677 - Node <GPIOf0_22> of sequential type is unconnected in block <XLXI_52>.
+WARNING:Xst:2677 - Node <GPIOf0_23> of sequential type is unconnected in block <XLXI_52>.
+WARNING:Xst:2677 - Node <GPIOf0_24> of sequential type is unconnected in block <XLXI_52>.
+WARNING:Xst:2677 - Node <GPIOf0_25> of sequential type is unconnected in block <XLXI_52>.
+WARNING:Xst:2677 - Node <GPIOf0_26> of sequential type is unconnected in block <XLXI_52>.
+WARNING:Xst:2677 - Node <GPIOf0_27> of sequential type is unconnected in block <XLXI_52>.
+WARNING:Xst:2677 - Node <GPIOf0_28> of sequential type is unconnected in block <XLXI_52>.
+WARNING:Xst:2677 - Node <GPIOf0_29> of sequential type is unconnected in block <XLXI_52>.
+WARNING:Xst:2677 - Node <GPIOf0_30> of sequential type is unconnected in block <XLXI_52>.
+WARNING:Xst:2677 - Node <GPIOf0_31> of sequential type is unconnected in block <XLXI_52>.
+WARNING:Xst:2677 - Node <GPIOf0_8> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_9> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_10> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_11> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_12> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_13> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_14> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_15> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_16> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_17> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_18> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_19> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_20> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_21> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_22> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_23> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_24> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_25> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_26> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_27> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_28> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_29> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_30> of sequential type is unconnected in block <XLXI_53>.
+WARNING:Xst:2677 - Node <GPIOf0_31> of sequential type is unconnected in block <XLXI_53>.
+
+Synthesizing (advanced) Unit <Compare>.
+The following registers are absorbed into counter <W1>: 1 register on signal <W1>.
+Unit <Compare> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Counter_Score>.
+The following registers are absorbed into counter <Score>: 1 register on signal <Score>.
+Unit <Counter_Score> synthesized (advanced).
 
 Synthesizing (advanced) Unit <Random_Block_Generate>.
 The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
@@ -358,13 +705,17 @@ Advanced HDL Synthesis Report
 Macro Statistics
 # RAMs                                                 : 1
  4x8-bit single-port distributed Read Only RAM         : 1
-# Counters                                             : 2
- 32-bit up counter                                     : 2
-# Registers                                            : 131
- Flip-Flops                                            : 131
-# Comparators                                          : 1
+# Counters                                             : 4
+ 3-bit up counter                                      : 1
+ 32-bit up counter                                     : 3
+# Registers                                            : 457
+ Flip-Flops                                            : 457
+# Comparators                                          : 3
+ 2-bit comparator equal                                : 1
  32-bit comparator equal                               : 1
-# Multiplexers                                         : 2
+ 32-bit comparator greater                             : 1
+# Multiplexers                                         : 12
+ 32-bit 2-to-1 multiplexer                             : 10
  64-bit 2-to-1 multiplexer                             : 2
 # FSMs                                                 : 1
 
@@ -373,14 +724,8 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:1293 - FF/Latch <num_56> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_48> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_40> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_32> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_24> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_16> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_8> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_0> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <GPIOf0_0> in Unit <GPIO> is equivalent to the following 31 FFs/Latches, which will be removed : <GPIOf0_1> <GPIOf0_2> <GPIOf0_3> <GPIOf0_4> <GPIOf0_5> <GPIOf0_6> <GPIOf0_7> <GPIOf0_8> <GPIOf0_9> <GPIOf0_10> <GPIOf0_11> <GPIOf0_12> <GPIOf0_13> <GPIOf0_14> <GPIOf0_15> <GPIOf0_16> <GPIOf0_17> <GPIOf0_18> <GPIOf0_19> <GPIOf0_20> <GPIOf0_21> <GPIOf0_22> <GPIOf0_23> <GPIOf0_24> <GPIOf0_25> <GPIOf0_26> <GPIOf0_27> <GPIOf0_28> <GPIOf0_29> <GPIOf0_30> <GPIOf0_31> 
+INFO:Xst:2261 - The FF/Latch <GPIOf0_0> in Unit <PIO> is equivalent to the following 31 FFs/Latches, which will be removed : <GPIOf0_1> <GPIOf0_2> <GPIOf0_3> <GPIOf0_4> <GPIOf0_5> <GPIOf0_6> <GPIOf0_7> <GPIOf0_8> <GPIOf0_9> <GPIOf0_10> <GPIOf0_11> <GPIOf0_12> <GPIOf0_13> <GPIOf0_14> <GPIOf0_15> <GPIOf0_16> <GPIOf0_17> <GPIOf0_18> <GPIOf0_19> <GPIOf0_20> <GPIOf0_21> <GPIOf0_22> <GPIOf0_23> <GPIOf0_24> <GPIOf0_25> <GPIOf0_26> <GPIOf0_27> <GPIOf0_28> <GPIOf0_29> <GPIOf0_30> <GPIOf0_31> 
 Analyzing FSM <MFsm> for best encoding.
 Optimizing FSM <FSM_0> on signal <aim[1:2]> with sequential encoding.
 ----------------------
@@ -391,6 +736,9 @@ Optimizing FSM <FSM_0> on signal <aim[1:2]> with sequential encoding.
  00010000 | 10
 ----------------------
 WARNING:Xst:1293 - FF/Latch <new_block_0> has a constant value of 0 in block <generate_block>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <new_block_3> has a constant value of 0 in block <generate_block>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <new_block_4> has a constant value of 0 in block <generate_block>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <new_block_5> has a constant value of 0 in block <generate_block>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:2677 - Node <M1/clkdiv_21> of sequential type is unconnected in block <Frame>.
 WARNING:Xst:2677 - Node <M1/clkdiv_22> of sequential type is unconnected in block <Frame>.
 WARNING:Xst:2677 - Node <M1/clkdiv_23> of sequential type is unconnected in block <Frame>.
@@ -402,98 +750,121 @@ WARNING:Xst:2677 - Node <M1/clkdiv_28> of sequential type is unconnected in bloc
 WARNING:Xst:2677 - Node <M1/clkdiv_29> of sequential type is unconnected in block <Frame>.
 WARNING:Xst:2677 - Node <M1/clkdiv_30> of sequential type is unconnected in block <Frame>.
 WARNING:Xst:2677 - Node <M1/clkdiv_31> of sequential type is unconnected in block <Frame>.
-INFO:Xst:2261 - The FF/Latch <new_block_2> in Unit <generate_block> is equivalent to the following 2 FFs/Latches, which will be removed : <new_block_6> <new_block_7> 
-INFO:Xst:2261 - The FF/Latch <new_block_3> in Unit <generate_block> is equivalent to the following 2 FFs/Latches, which will be removed : <new_block_4> <new_block_5> 
-WARNING:Xst:1293 - FF/Latch <num_49> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_41> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_33> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_25> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_17> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_9> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_1> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
-INFO:Xst:2261 - The FF/Latch <num_55> in Unit <Random_Block_Generate> is equivalent to the following FF/Latch, which will be removed : <num_51> 
-INFO:Xst:2261 - The FF/Latch <num_54> in Unit <Random_Block_Generate> is equivalent to the following 2 FFs/Latches, which will be removed : <num_53> <num_52> 
-INFO:Xst:2261 - The FF/Latch <num_46> in Unit <Random_Block_Generate> is equivalent to the following 2 FFs/Latches, which will be removed : <num_45> <num_44> 
-INFO:Xst:2261 - The FF/Latch <num_47> in Unit <Random_Block_Generate> is equivalent to the following FF/Latch, which will be removed : <num_43> 
-INFO:Xst:2261 - The FF/Latch <num_39> in Unit <Random_Block_Generate> is equivalent to the following FF/Latch, which will be removed : <num_35> 
-INFO:Xst:2261 - The FF/Latch <num_38> in Unit <Random_Block_Generate> is equivalent to the following 2 FFs/Latches, which will be removed : <num_37> <num_36> 
-INFO:Xst:2261 - The FF/Latch <num_31> in Unit <Random_Block_Generate> is equivalent to the following FF/Latch, which will be removed : <num_27> 
-INFO:Xst:2261 - The FF/Latch <num_29> in Unit <Random_Block_Generate> is equivalent to the following 2 FFs/Latches, which will be removed : <num_30> <num_28> 
-INFO:Xst:2261 - The FF/Latch <num_23> in Unit <Random_Block_Generate> is equivalent to the following FF/Latch, which will be removed : <num_19> 
-INFO:Xst:2261 - The FF/Latch <num_22> in Unit <Random_Block_Generate> is equivalent to the following 2 FFs/Latches, which will be removed : <num_21> <num_20> 
-INFO:Xst:2261 - The FF/Latch <num_15> in Unit <Random_Block_Generate> is equivalent to the following FF/Latch, which will be removed : <num_11> 
-INFO:Xst:2261 - The FF/Latch <num_14> in Unit <Random_Block_Generate> is equivalent to the following 2 FFs/Latches, which will be removed : <num_13> <num_12> 
-INFO:Xst:2261 - The FF/Latch <num_7> in Unit <Random_Block_Generate> is equivalent to the following FF/Latch, which will be removed : <num_3> 
-INFO:Xst:2261 - The FF/Latch <num_6> in Unit <Random_Block_Generate> is equivalent to the following 2 FFs/Latches, which will be removed : <num_5> <num_4> 
+INFO:Xst:2261 - The FF/Latch <new_block_1> in Unit <generate_block> is equivalent to the following 3 FFs/Latches, which will be removed : <new_block_2> <new_block_6> <new_block_7> 
+WARNING:Xst:1293 - FF/Latch <num_53> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_52> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_51> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_48> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_44> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_45> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_43> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_40> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_37> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_36> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_35> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_32> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_24> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_27> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_28> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_29> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_21> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_20> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_19> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_16> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_13> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_12> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_11> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_8> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_5> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_4> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_3> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <num_0> has a constant value of 0 in block <Random_Block_Generate>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <num_55> in Unit <Random_Block_Generate> is equivalent to the following 3 FFs/Latches, which will be removed : <num_54> <num_50> <num_49> 
+INFO:Xst:2261 - The FF/Latch <num_47> in Unit <Random_Block_Generate> is equivalent to the following 3 FFs/Latches, which will be removed : <num_46> <num_42> <num_41> 
+INFO:Xst:2261 - The FF/Latch <num_39> in Unit <Random_Block_Generate> is equivalent to the following 3 FFs/Latches, which will be removed : <num_38> <num_34> <num_33> 
+INFO:Xst:2261 - The FF/Latch <num_31> in Unit <Random_Block_Generate> is equivalent to the following 3 FFs/Latches, which will be removed : <num_30> <num_26> <num_25> 
+INFO:Xst:2261 - The FF/Latch <num_23> in Unit <Random_Block_Generate> is equivalent to the following 3 FFs/Latches, which will be removed : <num_22> <num_18> <num_17> 
+INFO:Xst:2261 - The FF/Latch <num_14> in Unit <Random_Block_Generate> is equivalent to the following 3 FFs/Latches, which will be removed : <num_15> <num_10> <num_9> 
+INFO:Xst:2261 - The FF/Latch <num_7> in Unit <Random_Block_Generate> is equivalent to the following 3 FFs/Latches, which will be removed : <num_6> <num_2> <num_1> 
+WARNING:Xst:1710 - FF/Latch <XLXI_52/GPIOf0_0> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_53/GPIOf0_0> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2170 - Unit DM74LS194 : the following signal(s) form a combinatorial loop: M0/XLXN_11, M0/Qn_DUMMY, M0/XLXN_22, QA.
+WARNING:Xst:2170 - Unit DM74LS194 : the following signal(s) form a combinatorial loop: M1/XLXN_22, M1/XLXN_11, QB, M1/Qn_DUMMY.
+WARNING:Xst:2170 - Unit DM74LS194 : the following signal(s) form a combinatorial loop: M2/XLXN_22, M2/Qn_DUMMY, QC, M2/XLXN_11.
+WARNING:Xst:2170 - Unit DM74LS194 : the following signal(s) form a combinatorial loop: M3/XLXN_11, QD, M3/XLXN_22, M3/Qn_DUMMY.
+
+Optimizing unit <MUX8T1_8_MUSER_MUX8T1_32> ...
+
+Optimizing unit <MUX4T1_4_MUSER_MUX8T1_32> ...
+
+Optimizing unit <HCT138> ...
+
+Optimizing unit <Decoder_38_MUSER_HCT138> ...
+
+Optimizing unit <Shift_32> ...
+
+Optimizing unit <ScanSync_MUSER_Frame> ...
+
+Optimizing unit <MUX8T1_8_MUSER_Frame> ...
+
+Optimizing unit <MUX4T1_4_MUSER_Frame> ...
+
+Optimizing unit <MUXHM_MUSER_Frame> ...
+
+Optimizing unit <MC14495_ZJU_MUSER_Frame> ...
 
 Optimizing unit <Frame> ...
 
 Optimizing unit <Random_Block_Generate> ...
 
 Optimizing unit <Judge> ...
-WARNING:Xst:1710 - FF/Latch <XLXI_38/num_57> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_56> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_49> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_48> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_41> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_40> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_33> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_32> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_25> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_24> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_17> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_16> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_9> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <Regs_8_32> ...
+
+Optimizing unit <DM74LS194> ...
+WARNING:Xst:1710 - FF/Latch <XLXI_38/num_0> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_3> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_5> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_8> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_0> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <XLXI_36/counter_2> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_3> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_4> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_5> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_8> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_6> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_7> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_9> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_10> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_11> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_12> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_13> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_14> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_17> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_15> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_16> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_18> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_19> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_20> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_21> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_22> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_23> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_24> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_25> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_26> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_27> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_28> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_29> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_30> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_36/counter_31> has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_11> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_12> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_13> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_16> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_19> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_20> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_21> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_24> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_27> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_28> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_29> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_32> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_35> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_36> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_37> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_40> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_43> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_44> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_45> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_48> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_51> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_52> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_53> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_56> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_59> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_60> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_38/num_61> (without init value) has a constant value of 0 in block <Frame>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:3203 - The FF/Latch <XLXI_50/W2_0> in Unit <Frame> is the opposite to the following FF/Latch, which will be removed : <XLXI_50/W1_0> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
-INFO:Xst:2261 - The FF/Latch <XLXI_38/num_22> in Unit <Frame> is equivalent to the following 2 FFs/Latches, which will be removed : <XLXI_38/num_21> <XLXI_38/num_20> 
-INFO:Xst:2261 - The FF/Latch <XLXI_38/num_23> in Unit <Frame> is equivalent to the following FF/Latch, which will be removed : <XLXI_38/num_19> 
-INFO:Xst:2261 - The FF/Latch <XLXI_38/num_31> in Unit <Frame> is equivalent to the following FF/Latch, which will be removed : <XLXI_38/num_27> 
-INFO:Xst:2261 - The FF/Latch <XLXI_38/num_30> in Unit <Frame> is equivalent to the following 2 FFs/Latches, which will be removed : <XLXI_38/num_29> <XLXI_38/num_28> 
-INFO:Xst:2261 - The FF/Latch <XLXI_38/num_39> in Unit <Frame> is equivalent to the following FF/Latch, which will be removed : <XLXI_38/num_35> 
-INFO:Xst:2261 - The FF/Latch <XLXI_38/num_38> in Unit <Frame> is equivalent to the following 2 FFs/Latches, which will be removed : <XLXI_38/num_37> <XLXI_38/num_36> 
-INFO:Xst:2261 - The FF/Latch <XLXI_38/num_6> in Unit <Frame> is equivalent to the following FF/Latch, which will be removed : <XLXI_38/num_5> 
-INFO:Xst:2261 - The FF/Latch <XLXI_38/num_47> in Unit <Frame> is equivalent to the following FF/Latch, which will be removed : <XLXI_38/num_43> 
-INFO:Xst:2261 - The FF/Latch <XLXI_38/num_46> in Unit <Frame> is equivalent to the following 2 FFs/Latches, which will be removed : <XLXI_38/num_45> <XLXI_38/num_44> 
-INFO:Xst:2261 - The FF/Latch <XLXI_38/num_55> in Unit <Frame> is equivalent to the following FF/Latch, which will be removed : <XLXI_38/num_51> 
-INFO:Xst:2261 - The FF/Latch <XLXI_38/num_54> in Unit <Frame> is equivalent to the following 2 FFs/Latches, which will be removed : <XLXI_38/num_53> <XLXI_38/num_52> 
-INFO:Xst:2261 - The FF/Latch <XLXI_38/num_62> in Unit <Frame> is equivalent to the following 2 FFs/Latches, which will be removed : <XLXI_38/num_61> <XLXI_38/num_60> 
-INFO:Xst:2261 - The FF/Latch <XLXI_38/num_63> in Unit <Frame> is equivalent to the following FF/Latch, which will be removed : <XLXI_38/num_59> 
-INFO:Xst:2261 - The FF/Latch <XLXI_38/num_15> in Unit <Frame> is equivalent to the following FF/Latch, which will be removed : <XLXI_38/num_11> 
-INFO:Xst:2261 - The FF/Latch <XLXI_38/num_14> in Unit <Frame> is equivalent to the following 2 FFs/Latches, which will be removed : <XLXI_38/num_13> <XLXI_38/num_12> 
+INFO:Xst:2261 - The FF/Latch <XLXI_38/num_15> in Unit <Frame> is equivalent to the following 3 FFs/Latches, which will be removed : <XLXI_38/num_14> <XLXI_38/num_10> <XLXI_38/num_9> 
+INFO:Xst:2261 - The FF/Latch <XLXI_38/num_23> in Unit <Frame> is equivalent to the following 3 FFs/Latches, which will be removed : <XLXI_38/num_22> <XLXI_38/num_18> <XLXI_38/num_17> 
+INFO:Xst:2261 - The FF/Latch <XLXI_38/num_31> in Unit <Frame> is equivalent to the following 3 FFs/Latches, which will be removed : <XLXI_38/num_30> <XLXI_38/num_26> <XLXI_38/num_25> 
+INFO:Xst:2261 - The FF/Latch <XLXI_38/num_6> in Unit <Frame> is equivalent to the following FF/Latch, which will be removed : <XLXI_38/num_2> 
+INFO:Xst:2261 - The FF/Latch <XLXI_38/num_39> in Unit <Frame> is equivalent to the following 3 FFs/Latches, which will be removed : <XLXI_38/num_38> <XLXI_38/num_34> <XLXI_38/num_33> 
+INFO:Xst:2261 - The FF/Latch <XLXI_38/num_47> in Unit <Frame> is equivalent to the following 3 FFs/Latches, which will be removed : <XLXI_38/num_46> <XLXI_38/num_42> <XLXI_38/num_41> 
+INFO:Xst:2261 - The FF/Latch <XLXI_38/num_55> in Unit <Frame> is equivalent to the following 3 FFs/Latches, which will be removed : <XLXI_38/num_54> <XLXI_38/num_50> <XLXI_38/num_49> 
+INFO:Xst:2261 - The FF/Latch <XLXI_38/num_63> in Unit <Frame> is equivalent to the following 3 FFs/Latches, which will be removed : <XLXI_38/num_62> <XLXI_38/num_58> <XLXI_38/num_57> 
 Found area constraint ratio of 100 (+ 5) on block Frame, actual ratio is 0.
 
 Final Macro Processing ...
@@ -502,8 +873,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 78
- Flip-Flops                                            : 78
+# Registers                                            : 373
+ Flip-Flops                                            : 373
 
 =========================================================================
 
@@ -526,33 +897,43 @@ Top Level Output File Name         : Frame.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 806
-#      BUF                         : 1
+# BELS                             : 2814
+#      AND2                        : 1042
+#      AND3                        : 13
+#      AND4                        : 9
+#      BUF                         : 11
 #      GND                         : 2
-#      INV                         : 16
-#      LUT1                        : 86
-#      LUT2                        : 56
-#      LUT3                        : 94
-#      LUT4                        : 72
-#      LUT5                        : 81
-#      LUT6                        : 181
-#      MUXCY                       : 119
-#      MUXF7                       : 3
-#      VCC                         : 3
-#      XORCY                       : 92
-# FlipFlops/Latches                : 351
-#      FD                          : 190
-#      FDC                         : 60
+#      INV                         : 128
+#      LUT1                        : 148
+#      LUT2                        : 40
+#      LUT3                        : 146
+#      LUT4                        : 110
+#      LUT5                        : 98
+#      LUT6                        : 433
+#      MUXCY                       : 200
+#      MUXF7                       : 6
+#      OR2                         : 95
+#      OR3                         : 3
+#      OR4                         : 172
+#      VCC                         : 4
+#      XORCY                       : 154
+# FlipFlops/Latches                : 672
+#      FD                          : 211
+#      FDC                         : 308
+#      FDCE                        : 36
 #      FDE                         : 47
 #      FDP                         : 1
-#      FDR                         : 24
-#      FDRE                        : 29
-# Clock Buffers                    : 2
-#      BUFG                        : 1
+#      FDR                         : 33
+#      FDRE                        : 36
+# Clock Buffers                    : 4
+#      BUFG                        : 3
 #      BUFGP                       : 1
-# IO Buffers                       : 34
+# IO Buffers                       : 58
 #      IBUF                        : 21
-#      OBUF                        : 13
+#      OBUF                        : 37
+# Logical                          : 208
+#      NAND2                       : 16
+#      NAND3                       : 192
 
 Device utilization summary:
 ---------------------------
@@ -561,23 +942,23 @@ Selected Device : 7k160tffg676-2l
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             351  out of  202800     0%  
- Number of Slice LUTs:                  586  out of  101400     0%  
-    Number used as Logic:               586  out of  101400     0%  
+ Number of Slice Registers:             672  out of  202800     0%  
+ Number of Slice LUTs:                 1103  out of  101400     1%  
+    Number used as Logic:              1103  out of  101400     1%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    617
-   Number with an unused Flip Flop:     266  out of    617    43%  
-   Number with an unused LUT:            31  out of    617     5%  
-   Number of fully used LUT-FF pairs:   320  out of    617    51%  
-   Number of unique control sets:        17
+ Number of LUT Flip Flop pairs used:   1142
+   Number with an unused Flip Flop:     470  out of   1142    41%  
+   Number with an unused LUT:            39  out of   1142     3%  
+   Number of fully used LUT-FF pairs:   633  out of   1142    55%  
+   Number of unique control sets:        24
 
 IO Utilization: 
- Number of IOs:                          35
- Number of bonded IOBs:                  35  out of    400     8%  
+ Number of IOs:                          59
+ Number of bonded IOBs:                  59  out of    400    14%  
 
 Specific Feature Utilization:
- Number of BUFG/BUFGCTRLs:                2  out of     32     6%  
+ Number of BUFG/BUFGCTRLs:                4  out of     32    12%  
 
 ---------------------------
 Partition Resource Summary:
@@ -597,14 +978,15 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
------------------------------------+--------------------------------+-------+
-Clock Signal                       | Clock buffer(FF name)          | Load  |
------------------------------------+--------------------------------+-------+
-clk_100mhz                         | BUFGP                          | 304   |
-XLXI_36/EN                         | NONE(XLXI_36/new_b/new_block_1)| 3     |
-M2/clk1                            | BUFG                           | 41    |
-M4/push(M4/push1:O)                | NONE(*)(M4/state_0)            | 3     |
------------------------------------+--------------------------------+-------+
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_100mhz                         | BUFGP                  | 334   |
+XLXI_36/EN                         | BUFG                   | 33    |
+M2/clk1                            | BUFG                   | 41    |
+M4/push(M4/push1:O)                | NONE(*)(M4/state_0)    | 3     |
+M1/clkdiv_20                       | BUFG                   | 261   |
+-----------------------------------+------------------------+-------+
 (*) This 1 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
 Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
@@ -618,9 +1000,9 @@ Timing Summary:
 ---------------
 Speed Grade: -2
 
-   Minimum period: 2.195ns (Maximum Frequency: 455.633MHz)
+   Minimum period: 8.300ns (Maximum Frequency: 120.480MHz)
    Minimum input arrival time before clock: 2.109ns
-   Maximum output required time after clock: 0.658ns
+   Maximum output required time after clock: 12.383ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -629,54 +1011,91 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk_100mhz'
-  Clock period: 2.195ns (frequency: 455.633MHz)
-  Total number of paths / destination ports: 7542 / 416
+  Clock period: 2.593ns (frequency: 385.616MHz)
+  Total number of paths / destination ports: 9482 / 468
 -------------------------------------------------------------------------
-Delay:               2.195ns (Levels of Logic = 8)
-  Source:            M2/sw_temp_2 (FF)
-  Destination:       M2/SW_OK_0 (FF)
+Delay:               2.593ns (Levels of Logic = 13)
+  Source:            XLXI_36/counter_0 (FF)
+  Destination:       XLXI_36/counter_0 (FF)
   Source Clock:      clk_100mhz rising
   Destination Clock: clk_100mhz rising
 
-  Data Path: M2/sw_temp_2 to M2/SW_OK_0
+  Data Path: XLXI_36/counter_0 to XLXI_36/counter_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               1   0.236   0.495  sw_temp_2 (sw_temp<2>)
-     LUT6:I3->O            1   0.043   0.000  Mcompar_sw_temp[15]_SW[15]_not_equal_100_o_lut<0> (Mcompar_sw_temp[15]_SW[15]_not_equal_100_o_lut<0>)
-     MUXCY:S->O            1   0.238   0.000  Mcompar_sw_temp[15]_SW[15]_not_equal_100_o_cy<0> (Mcompar_sw_temp[15]_SW[15]_not_equal_100_o_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  Mcompar_sw_temp[15]_SW[15]_not_equal_100_o_cy<1> (Mcompar_sw_temp[15]_SW[15]_not_equal_100_o_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  Mcompar_sw_temp[15]_SW[15]_not_equal_100_o_cy<2> (Mcompar_sw_temp[15]_SW[15]_not_equal_100_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  Mcompar_sw_temp[15]_SW[15]_not_equal_100_o_cy<3> (Mcompar_sw_temp[15]_SW[15]_not_equal_100_o_cy<3>)
-     MUXCY:CI->O           1   0.013   0.000  Mcompar_sw_temp[15]_SW[15]_not_equal_100_o_cy<4> (Mcompar_sw_temp[15]_SW[15]_not_equal_100_o_cy<4>)
-     MUXCY:CI->O          43   0.013   0.471  Mcompar_sw_temp[15]_SW[15]_not_equal_100_o_cy<5> (sw_temp[15]_SW[15]_not_equal_100_o)
-     INV:I->O             17   0.054   0.429  _n0243_inv1_cepot_cepot_INV_0 (_n0243_inv1_cepot_cepot)
-     FDE:CE                    0.161          SW_OK_0
+     FDR:C->Q              2   0.236   0.618  XLXI_36/counter_0 (XLXI_36/counter_0)
+     LUT6:I0->O            1   0.043   0.000  XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_lut<0> (XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_lut<0>)
+     MUXCY:S->O            1   0.238   0.000  XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<0> (XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<1> (XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<2> (XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<3> (XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<3>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<4> (XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<4>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<5> (XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<5>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<6> (XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<6>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<7> (XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<7>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<8> (XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<8>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<9> (XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<9>)
+     MUXCY:CI->O           9   0.166   0.395  XLXI_36/Mcompar_counter[31]_gene_time[31]_equal_3_o_cy<10> (XLXI_36/counter[31]_gene_time[31]_equal_3_o)
+     LUT2:I1->O           32   0.043   0.469  XLXI_36/Mcount_counter_val321 (XLXI_36/Mcount_counter_val)
+     FDR:R                     0.264          XLXI_36/counter_0
     ----------------------------------------
-    Total                      2.195ns (0.800ns logic, 1.395ns route)
-                                       (36.4% logic, 63.6% route)
+    Total                      2.593ns (1.111ns logic, 1.482ns route)
+                                       (42.8% logic, 57.2% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'XLXI_36/EN'
-  Clock period: 1.401ns (frequency: 713.725MHz)
-  Total number of paths / destination ports: 9 / 3
+  Clock period: 1.595ns (frequency: 626.822MHz)
+  Total number of paths / destination ports: 529 / 33
 -------------------------------------------------------------------------
-Delay:               1.401ns (Levels of Logic = 1)
-  Source:            XLXI_36/new_b/new_block_3 (FF)
-  Destination:       XLXI_36/new_b/new_block_1 (FF)
+Delay:               1.595ns (Levels of Logic = 33)
+  Source:            XLXI_40/Score_0 (FF)
+  Destination:       XLXI_40/Score_31 (FF)
   Source Clock:      XLXI_36/EN rising
   Destination Clock: XLXI_36/EN rising
 
-  Data Path: XLXI_36/new_b/new_block_3 to XLXI_36/new_b/new_block_1
+  Data Path: XLXI_40/Score_0 to XLXI_40/Score_31
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q              3   0.236   0.507  XLXI_36/new_b/new_block_3 (XLXI_36/new_b/new_block_3)
-     LUT3:I0->O            3   0.043   0.351  XLXI_36/new_b/n0000_inv1 (XLXI_36/new_b/n0000_inv)
-     FDR:R                     0.264          XLXI_36/new_b/new_block_1
+     FDCE:C->Q            12   0.236   0.400  XLXI_40/Score_0 (XLXI_40/Score_0)
+     INV:I->O              1   0.054   0.000  XLXI_40/Mcount_Score_lut<0>_INV_0 (XLXI_40/Mcount_Score_lut<0>)
+     MUXCY:S->O            1   0.238   0.000  XLXI_40/Mcount_Score_cy<0> (XLXI_40/Mcount_Score_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_40/Mcount_Score_cy<1> (XLXI_40/Mcount_Score_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_40/Mcount_Score_cy<2> (XLXI_40/Mcount_Score_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_40/Mcount_Score_cy<3> (XLXI_40/Mcount_Score_cy<3>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_40/Mcount_Score_cy<4> (XLXI_40/Mcount_Score_cy<4>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_40/Mcount_Score_cy<5> (XLXI_40/Mcount_Score_cy<5>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_40/Mcount_Score_cy<6> (XLXI_40/Mcount_Score_cy<6>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_40/Mcount_Score_cy<7> (XLXI_40/Mcount_Score_cy<7>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_40/Mcount_Score_cy<8> (XLXI_40/Mcount_Score_cy<8>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_40/Mcount_Score_cy<9> (XLXI_40/Mcount_Score_cy<9>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_40/Mcount_Score_cy<10> (XLXI_40/Mcount_Score_cy<10>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_40/Mcount_Score_cy<11> (XLXI_40/Mcount_Score_cy<11>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_40/Mcount_Score_cy<12> (XLXI_40/Mcount_Score_cy<12>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_40/Mcount_Score_cy<13> (XLXI_40/Mcount_Score_cy<13>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_40/Mcount_Score_cy<14> (XLXI_40/Mcount_Score_cy<14>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_40/Mcount_Score_cy<15> (XLXI_40/Mcount_Score_cy<15>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_40/Mcount_Score_cy<16> (XLXI_40/Mcount_Score_cy<16>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_40/Mcount_Score_cy<17> (XLXI_40/Mcount_Score_cy<17>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_40/Mcount_Score_cy<18> (XLXI_40/Mcount_Score_cy<18>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_40/Mcount_Score_cy<19> (XLXI_40/Mcount_Score_cy<19>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_40/Mcount_Score_cy<20> (XLXI_40/Mcount_Score_cy<20>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_40/Mcount_Score_cy<21> (XLXI_40/Mcount_Score_cy<21>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_40/Mcount_Score_cy<22> (XLXI_40/Mcount_Score_cy<22>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_40/Mcount_Score_cy<23> (XLXI_40/Mcount_Score_cy<23>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_40/Mcount_Score_cy<24> (XLXI_40/Mcount_Score_cy<24>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_40/Mcount_Score_cy<25> (XLXI_40/Mcount_Score_cy<25>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_40/Mcount_Score_cy<26> (XLXI_40/Mcount_Score_cy<26>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_40/Mcount_Score_cy<27> (XLXI_40/Mcount_Score_cy<27>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_40/Mcount_Score_cy<28> (XLXI_40/Mcount_Score_cy<28>)
+     MUXCY:CI->O           1   0.014   0.000  XLXI_40/Mcount_Score_cy<29> (XLXI_40/Mcount_Score_cy<29>)
+     MUXCY:CI->O           0   0.014   0.000  XLXI_40/Mcount_Score_cy<30> (XLXI_40/Mcount_Score_cy<30>)
+     XORCY:CI->O           1   0.262   0.000  XLXI_40/Mcount_Score_xor<31> (Result<31>1)
+     FDCE:D                   -0.000          XLXI_40/Score_31
     ----------------------------------------
-    Total                      1.401ns (0.543ns logic, 0.858ns route)
-                                       (38.8% logic, 61.2% route)
+    Total                      1.595ns (1.195ns logic, 0.400ns route)
+                                       (74.9% logic, 25.1% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'M2/clk1'
@@ -727,6 +1146,56 @@ Delay:               1.069ns (Levels of Logic = 1)
     ----------------------------------------
     Total                      1.069ns (0.290ns logic, 0.779ns route)
                                        (27.1% logic, 72.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'M1/clkdiv_20'
+  Clock period: 8.300ns (frequency: 120.480MHz)
+  Total number of paths / destination ports: 1622440 / 261
+-------------------------------------------------------------------------
+Delay:               8.300ns (Levels of Logic = 29)
+  Source:            XLXI_50/W2_0 (FF)
+  Destination:       XLXI_43/R0/Q_0 (FF)
+  Source Clock:      M1/clkdiv_20 rising
+  Destination Clock: M1/clkdiv_20 rising
+
+  Data Path: XLXI_50/W2_0 to XLXI_43/R0/Q_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               7   0.236   0.373  XLXI_50/W2_0 (XLXI_50/W2_0)
+     INV:I->O             51   0.054   0.472  XLXN_237<0>_inv1_INV_0 (XLXI_50/Mcount_W1_cy<0>)
+     INV:I->O              2   0.317   0.618  XLXI_43/MUX_REGB/M1/M2/XLXI_5 (XLXI_43/MUX_REGB/M1/M2/XLXN_3)
+     AND2:I0->O            4   0.043   0.620  XLXI_43/MUX_REGB/M1/M2/XLXI_3 (XLXI_43/MUX_REGB/M1/M2/XLXN_5)
+     AND2:I1->O            1   0.053   0.603  XLXI_43/MUX_REGB/M1/M2/XLXI_24 (XLXI_43/MUX_REGB/M1/M2/XLXN_23)
+     OR4:I1->O             1   0.053   0.613  XLXI_43/MUX_REGB/M1/M2/XLXI_26 (XLXI_43/MUX_REGB/M1/o1<0>)
+     AND2:I0->O            1   0.043   0.613  XLXI_43/MUX_REGB/M1/XLXI_23 (XLXI_43/MUX_REGB/M1/XLXN_107)
+     OR2:I0->O            11   0.043   0.406  XLXI_43/MUX_REGB/M1/XLXI_74 (XLXN_216<0>)
+     LUT3:I2->O            2   0.043   0.527  XLXI_47/Mmux_o11 (XLXN_218<0>)
+     LUT4:I0->O            1   0.043   0.000  XLXI_50/Mcompar_sel_lut<0> (XLXI_50/Mcompar_sel_lut<0>)
+     MUXCY:S->O            1   0.238   0.000  XLXI_50/Mcompar_sel_cy<0> (XLXI_50/Mcompar_sel_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_50/Mcompar_sel_cy<1> (XLXI_50/Mcompar_sel_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_50/Mcompar_sel_cy<2> (XLXI_50/Mcompar_sel_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_50/Mcompar_sel_cy<3> (XLXI_50/Mcompar_sel_cy<3>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_50/Mcompar_sel_cy<4> (XLXI_50/Mcompar_sel_cy<4>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_50/Mcompar_sel_cy<5> (XLXI_50/Mcompar_sel_cy<5>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_50/Mcompar_sel_cy<6> (XLXI_50/Mcompar_sel_cy<6>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_50/Mcompar_sel_cy<7> (XLXI_50/Mcompar_sel_cy<7>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_50/Mcompar_sel_cy<8> (XLXI_50/Mcompar_sel_cy<8>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_50/Mcompar_sel_cy<9> (XLXI_50/Mcompar_sel_cy<9>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_50/Mcompar_sel_cy<10> (XLXI_50/Mcompar_sel_cy<10>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_50/Mcompar_sel_cy<11> (XLXI_50/Mcompar_sel_cy<11>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_50/Mcompar_sel_cy<12> (XLXI_50/Mcompar_sel_cy<12>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_50/Mcompar_sel_cy<13> (XLXI_50/Mcompar_sel_cy<13>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_50/Mcompar_sel_cy<14> (XLXI_50/Mcompar_sel_cy<14>)
+     MUXCY:CI->O           6   0.013   0.000  XLXI_50/Mcompar_sel_cy<15> (XLXI_50/EN_inv)
+     MUXCY:CI->O           2   0.150   0.618  XLXI_50/Mcompar_sel_cy<15>_inv1_cy (XLXN_233)
+     AND3:I0->O            8   0.043   0.652  XLXI_43/F/XLXI_10 (XLXI_43/F/XLXN_27)
+     NAND2:I0->O          32   0.043   0.535  XLXI_43/F/XLXI_2 (XLXI_43/sel<0>)
+     LUT6:I4->O            1   0.043   0.000  XLXI_43/R0/Q_0_rstpot (XLXI_43/R0/Q_0_rstpot)
+     FDC:D                    -0.000          XLXI_43/R0/Q_0
+    ----------------------------------------
+    Total                      8.300ns (1.648ns logic, 6.652ns route)
+                                       (19.9% logic, 80.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_100mhz'
@@ -781,6 +1250,44 @@ Offset:              2.109ns (Levels of Logic = 6)
                                        (8.2% logic, 91.8% route)
 
 =========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_100mhz'
+  Total number of paths / destination ports: 15516 / 20
+-------------------------------------------------------------------------
+Offset:              12.383ns (Levels of Logic = 20)
+  Source:            M2/SW_OK_3 (FF)
+  Destination:       SEGMENT<5> (PAD)
+  Source Clock:      clk_100mhz rising
+
+  Data Path: M2/SW_OK_3 to SEGMENT<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             49   0.236   0.472  SW_OK_3 (SW_OK<3>)
+     end scope: 'M2:SW_OK<3>'
+     INV:I->O              2   0.317   0.618  XLXI_43/MUX_REGA/M4/M4/XLXI_5 (XLXI_43/MUX_REGA/M4/M4/XLXN_3)
+     AND2:I0->O            4   0.043   0.620  XLXI_43/MUX_REGA/M4/M4/XLXI_3 (XLXI_43/MUX_REGA/M4/M4/XLXN_5)
+     AND2:I1->O            1   0.053   0.603  XLXI_43/MUX_REGA/M4/M4/XLXI_9 (XLXI_43/MUX_REGA/M4/M4/XLXN_28)
+     OR4:I1->O             1   0.053   0.613  XLXI_43/MUX_REGA/M4/M4/XLXI_11 (XLXI_43/MUX_REGA/M4/o3<1>)
+     AND2:I0->O            1   0.043   0.613  XLXI_43/MUX_REGA/M4/XLXI_33 (XLXI_43/MUX_REGA/M4/XLXN_117)
+     OR2:I0->O             1   0.043   0.350  XLXI_43/MUX_REGA/M4/XLXI_79 (XLXN_212<29>)
+     LUT3:I2->O            2   0.043   0.618  XLXI_44/Mmux_o221 (XLXN_213<29>)
+     AND2:I0->O            1   0.043   0.613  XLXI_42/M2/MUX8180/M4/XLXI_10 (XLXI_42/M2/MUX8180/M4/XLXN_29)
+     OR4:I0->O             1   0.043   0.613  XLXI_42/M2/MUX8180/M4/XLXI_11 (XLXI_42/M2/MUX8180/o3<1>)
+     AND2:I0->O            1   0.043   0.613  XLXI_42/M2/MUX8180/XLXI_33 (XLXI_42/M2/MUX8180/XLXN_117)
+     OR2:I0->O             1   0.043   0.339  XLXI_42/M2/MUX8180/XLXI_79 (XLXI_42/M2/Hex<5>)
+     BUF:I->O             11   0.317   0.395  XLXI_42/M2/XLXI_11 (XLXI_42/Hexo<1>)
+     INV:I->O              8   0.317   0.642  XLXI_42/M1/XLXI_2 (XLXI_42/M1/XLXN_4)
+     AND4:I1->O            2   0.053   0.500  XLXI_42/M1/XLXI_23 (XLXI_42/M1/XLXN_33)
+     OR4:I3->O             1   0.161   0.603  XLXI_42/M1/XLXI_110 (XLXI_42/M1/XLXN_52)
+     OR2:I1->O             1   0.053   0.613  XLXI_42/M1/XLXI_118 (XLXI_42/SEG_TXT<5>)
+     AND2:I0->O            1   0.043   0.613  XLXI_42/MUX218/XLXI_26 (XLXI_42/MUX218/XLXN_74)
+     OR2:I0->O             1   0.043   0.339  XLXI_42/MUX218/XLXI_83 (SEGMENT_5_OBUF)
+     OBUF:I->O                 0.000          SEGMENT_5_OBUF (SEGMENT<5>)
+    ----------------------------------------
+    Total                     12.383ns (1.990ns logic, 10.393ns route)
+                                       (16.1% logic, 83.9% route)
+
+=========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'M2/clk1'
   Total number of paths / destination ports: 6 / 6
 -------------------------------------------------------------------------
@@ -801,29 +1308,85 @@ Offset:              0.658ns (Levels of Logic = 2)
                                        (35.8% logic, 64.2% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_100mhz'
-  Total number of paths / destination ports: 5 / 5
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_36/EN'
+  Total number of paths / destination ports: 720 / 8
 -------------------------------------------------------------------------
-Offset:              0.625ns (Levels of Logic = 2)
-  Source:            XLXI_33/s_clk (FF)
-  Destination:       SEGCLk (PAD)
-  Source Clock:      clk_100mhz rising
+Offset:              8.408ns (Levels of Logic = 13)
+  Source:            XLXI_40/Score_1 (FF)
+  Destination:       SEGMENT<3> (PAD)
+  Source Clock:      XLXI_36/EN rising
 
-  Data Path: XLXI_33/s_clk to SEGCLk
+  Data Path: XLXI_40/Score_1 to SEGMENT<3>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q             10   0.236   0.389  s_clk (s_clk)
-     end scope: 'XLXI_33:s_clk'
-     OBUF:I->O                 0.000          SEGCLk_OBUF (SEGCLk)
+     FDCE:C->Q            12   0.236   0.466  XLXI_40/Score_1 (XLXI_40/Score_1)
+     LUT3:I1->O            2   0.043   0.618  XLXI_44/Mmux_o121 (XLXN_213<1>)
+     AND2:I0->O            1   0.043   0.495  XLXI_42/M2/MUX8180/M3/XLXI_7 (XLXI_42/M2/MUX8180/M3/XLXN_6)
+     OR4:I3->O             1   0.161   0.613  XLXI_42/M2/MUX8180/M3/XLXI_11 (XLXI_42/M2/MUX8180/o2<1>)
+     AND2:I0->O            1   0.043   0.603  XLXI_42/M2/MUX8180/XLXI_32 (XLXI_42/M2/MUX8180/XLXN_116)
+     OR2:I1->O             1   0.053   0.339  XLXI_42/M2/MUX8180/XLXI_79 (XLXI_42/M2/Hex<5>)
+     BUF:I->O             11   0.317   0.395  XLXI_42/M2/XLXI_11 (XLXI_42/Hexo<1>)
+     INV:I->O              8   0.317   0.642  XLXI_42/M1/XLXI_2 (XLXI_42/M1/XLXN_4)
+     AND4:I1->O            2   0.053   0.500  XLXI_42/M1/XLXI_23 (XLXI_42/M1/XLXN_33)
+     OR4:I3->O             1   0.161   0.603  XLXI_42/M1/XLXI_110 (XLXI_42/M1/XLXN_52)
+     OR2:I1->O             1   0.053   0.613  XLXI_42/M1/XLXI_118 (XLXI_42/SEG_TXT<5>)
+     AND2:I0->O            1   0.043   0.613  XLXI_42/MUX218/XLXI_26 (XLXI_42/MUX218/XLXN_74)
+     OR2:I0->O             1   0.043   0.339  XLXI_42/MUX218/XLXI_83 (SEGMENT_5_OBUF)
+     OBUF:I->O                 0.000          SEGMENT_5_OBUF (SEGMENT<5>)
     ----------------------------------------
-    Total                      0.625ns (0.236ns logic, 0.389ns route)
-                                       (37.7% logic, 62.3% route)
+    Total                      8.408ns (1.566ns logic, 6.842ns route)
+                                       (18.6% logic, 81.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'M1/clkdiv_20'
+  Total number of paths / destination ports: 5760 / 8
+-------------------------------------------------------------------------
+Offset:              10.928ns (Levels of Logic = 17)
+  Source:            XLXI_43/R7/Q_29 (FF)
+  Destination:       SEGMENT<5> (PAD)
+  Source Clock:      M1/clkdiv_20 rising
+
+  Data Path: XLXI_43/R7/Q_29 to SEGMENT<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.236   0.625  XLXI_43/R7/Q_29 (XLXI_43/R7/Q_29)
+     AND2:I0->O            1   0.043   0.613  XLXI_43/MUX_REGA/M4/M4/XLXI_10 (XLXI_43/MUX_REGA/M4/M4/XLXN_29)
+     OR4:I0->O             1   0.043   0.613  XLXI_43/MUX_REGA/M4/M4/XLXI_11 (XLXI_43/MUX_REGA/M4/o3<1>)
+     AND2:I0->O            1   0.043   0.613  XLXI_43/MUX_REGA/M4/XLXI_33 (XLXI_43/MUX_REGA/M4/XLXN_117)
+     OR2:I0->O             1   0.043   0.350  XLXI_43/MUX_REGA/M4/XLXI_79 (XLXN_212<29>)
+     LUT3:I2->O            2   0.043   0.618  XLXI_44/Mmux_o221 (XLXN_213<29>)
+     AND2:I0->O            1   0.043   0.613  XLXI_42/M2/MUX8180/M4/XLXI_10 (XLXI_42/M2/MUX8180/M4/XLXN_29)
+     OR4:I0->O             1   0.043   0.613  XLXI_42/M2/MUX8180/M4/XLXI_11 (XLXI_42/M2/MUX8180/o3<1>)
+     AND2:I0->O            1   0.043   0.613  XLXI_42/M2/MUX8180/XLXI_33 (XLXI_42/M2/MUX8180/XLXN_117)
+     OR2:I0->O             1   0.043   0.339  XLXI_42/M2/MUX8180/XLXI_79 (XLXI_42/M2/Hex<5>)
+     BUF:I->O             11   0.317   0.395  XLXI_42/M2/XLXI_11 (XLXI_42/Hexo<1>)
+     INV:I->O              8   0.317   0.642  XLXI_42/M1/XLXI_2 (XLXI_42/M1/XLXN_4)
+     AND4:I1->O            2   0.053   0.500  XLXI_42/M1/XLXI_23 (XLXI_42/M1/XLXN_33)
+     OR4:I3->O             1   0.161   0.603  XLXI_42/M1/XLXI_110 (XLXI_42/M1/XLXN_52)
+     OR2:I1->O             1   0.053   0.613  XLXI_42/M1/XLXI_118 (XLXI_42/SEG_TXT<5>)
+     AND2:I0->O            1   0.043   0.613  XLXI_42/MUX218/XLXI_26 (XLXI_42/MUX218/XLXN_74)
+     OR2:I0->O             1   0.043   0.339  XLXI_42/MUX218/XLXI_83 (SEGMENT_5_OBUF)
+     OBUF:I->O                 0.000          SEGMENT_5_OBUF (SEGMENT<5>)
+    ----------------------------------------
+    Total                     10.928ns (1.610ns logic, 9.318ns route)
+                                       (14.7% logic, 85.3% route)
 
 =========================================================================
 
 Cross Clock Domains Report:
 --------------------------
+
+Clock to Setup on destination clock M1/clkdiv_20
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+M1/clkdiv_20   |    8.300|         |         |         |
+XLXI_36/EN     |    3.931|         |         |         |
+clk_100mhz     |    3.959|         |         |         |
+---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock M2/clk1
 ---------------+---------+---------+---------+---------+
@@ -839,7 +1402,7 @@ Clock to Setup on destination clock M4/push
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-M2/clk1        |    0.829|         |         |         |
+M2/clk1        |    0.835|         |         |         |
 M4/push        |    1.069|         |         |         |
 clk_100mhz     |    1.264|         |         |         |
 ---------------+---------+---------+---------+---------+
@@ -849,8 +1412,8 @@ Clock to Setup on destination clock XLXI_36/EN
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-XLXI_36/EN     |    1.401|         |         |         |
-clk_100mhz     |    0.980|         |         |         |
+XLXI_36/EN     |    1.595|         |         |         |
+clk_100mhz     |    1.444|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk_100mhz
@@ -860,21 +1423,21 @@ Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 M2/clk1        |    1.100|         |         |         |
 M4/push        |    1.928|         |         |         |
-XLXI_36/EN     |    0.696|         |         |         |
-clk_100mhz     |    2.195|         |         |         |
+XLXI_36/EN     |  129.058|         |         |         |
+clk_100mhz     |    2.593|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 11.00 secs
-Total CPU time to Xst completion: 10.92 secs
+Total REAL time to Xst completion: 15.00 secs
+Total CPU time to Xst completion: 15.00 secs
  
 --> 
 
-Total memory usage is 412600 kilobytes
+Total memory usage is 430304 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   86 (   0 filtered)
-Number of infos    :   38 (   0 filtered)
+Number of warnings :  136 (   0 filtered)
+Number of infos    :   31 (   0 filtered)
 

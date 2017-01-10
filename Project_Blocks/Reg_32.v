@@ -20,13 +20,18 @@
 //////////////////////////////////////////////////////////////////////////////////
 module Reg_32(input clk,
 				  input clear,
-				  input [31:0] D,
+				  input [31:0] D1,
+				  input [31:0] D2,
+				  input sel,
 				  input Load,
 				  output reg[31:0]Q
     );
 
 always	@(posedge clk or posedge clear)
 	if (clear) Q <= 0;
-	else if (Load) Q <= D;
+	else if (Load) begin
+		if (sel) Q <= D2;
+		else Q <= D1;
+	end
 	else Q <= Q;
 endmodule

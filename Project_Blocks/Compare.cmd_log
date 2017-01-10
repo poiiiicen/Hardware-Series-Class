@@ -1,0 +1,6 @@
+vhdtdtfi -lib work C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Compare.v -lang verilog -prj Project_Blocks -o Compare.spl -module Compare -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Compare.spl C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Compare.sym 
+vhdtdtfi -lib work C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Compare.v -lang verilog -prj Project_Blocks -o Compare.spl -module Compare -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Compare.spl C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Compare.sym 
+vhdtdtfi -lib work C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Compare.v -lang verilog -prj Project_Blocks -o Compare.spl -module Compare -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Compare.spl C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Compare.sym 

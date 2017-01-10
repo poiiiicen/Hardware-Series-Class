@@ -41,7 +41,7 @@ ADC32	ADD_32(.a(A),
 
 assign And = A & B;
 assign Or = A | B;
-assign Slt = A >= B;
+assign Slt = A > B;
 
 MUX8T1_32	MUX1(.I0(And),
 					  .I1(Or),

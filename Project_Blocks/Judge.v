@@ -26,7 +26,7 @@ module Judge(input clk,
 				 output [63:0] Disp_num
     );
 reg[63:0] num;
-assign Disp_num = gameover ? 0 : num;
+assign Disp_num = gameover ? 0 : ~num;
 always @(posedge clk or posedge rst) begin
 	if (rst) begin
 		gameover <= 0;

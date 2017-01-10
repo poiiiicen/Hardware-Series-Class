@@ -1,6 +1,6 @@
-NET "clk"					LOC = AC18      | IOSTANDARD = LVCMOS18 ;
-NET "rst_n"					LOC = W13       | IOSTANDARD = LVCMOS18 ;
-NET "clk"		 			TNM_NET = TM_CLK ;
+NET "clk_100mhz"					LOC = AC18      | IOSTANDARD = LVCMOS18 ;
+NET "RSTN"					LOC = W13       | IOSTANDARD = LVCMOS18 ;
+NET "clk_100mhz"		 			TNM_NET = TM_CLK ;
 TIMESPEC TS_CLK_100M 	 	= PERIOD "TM_CLK"       10 ns HIGH 50%;
 
 NET "led_clk"				LOC = N26       | IOSTANDARD = LVCMOS33 ;

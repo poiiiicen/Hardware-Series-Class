@@ -25,7 +25,7 @@ module Counter_Score(input rst,
 							output levelup
     );
 	 
-assign levelup = (Score[2] == 1) ? 1 : 0;
+assign levelup = (Score[2:0] == 3'b100) ? 1 : 0;
 always @(posedge EN or posedge rst) begin
 	if (rst) begin
 		Score <= 0;
