@@ -20,14 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 module Generate_Control(input levelup,
 								input rst,
-								output [31:0] gene_time//reg [31:0] gene_time = 32'h00030D3F
+								output [31:0] gene_time
     );
-Shift_32		S(0, 1, levelup, 0, 0, 0, 32'h00030D3F, gene_time);
-/*always @(posedge levelup or posedge rst) begin
-	if (rst) gene_time <= 32'h00030D3F;
-	else begin
-		if (gene_time != 32'h0000270F) gene_time <= gene_time - 32'h00002710;
-		else gene_time <= gene_time;
-	end
-end*/
+Shift_32		S(0, 1, levelup, 0, 0, 0, 32'h0001869F, gene_time);
+
 endmodule

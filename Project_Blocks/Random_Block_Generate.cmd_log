@@ -4,3 +4,5 @@ vhdtdtfi -lib work C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Rando
 spl2sym -intstyle ise -family kintex7 Random_Block_Generate.spl C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Random_Block_Generate.sym 
 vhdtdtfi -lib work C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Random_Block_Generate.v -lang verilog -prj Project_Blocks -o Random_Block_Generate.spl -module Random_Block_Generate -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
 spl2sym -intstyle ise -family kintex7 Random_Block_Generate.spl C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Random_Block_Generate.sym 
+vhdtdtfi -lib work C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Random_Block_Generate.v -lang verilog -prj Project_Blocks -o Random_Block_Generate.spl -module Random_Block_Generate -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Random_Block_Generate.spl C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Random_Block_Generate.sym 

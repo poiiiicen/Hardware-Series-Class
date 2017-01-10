@@ -27,9 +27,7 @@ module Compare(input clk,
 					output [31:0] D1,
 					output [31:0] D2
     );
-wire sel;
-assign sel = A > B;
-assign EN = sel ? 1 : 0;
+assign EN = (A > B) ? 1 : 0;
 assign D1 = A;
 assign D2 = B;
 always @(posedge clk) begin

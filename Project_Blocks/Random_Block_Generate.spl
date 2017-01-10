@@ -2,7 +2,6 @@
 clk
 rst
 =gene_time[31:0]=
-=random[1:0]=
 [Outputs]
 EN
 =Disp_num[63:0]=

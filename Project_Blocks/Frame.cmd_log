@@ -122,3 +122,56 @@ map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -r
 par -w -intstyle ise -ol high -mt off Frame_map.ncd Frame.ncd Frame.pcf 
 trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Frame.twx Frame.ncd -o Frame.twr Frame.pcf -ucf Frame.ucf 
 bitgen -intstyle ise -f Frame.ut Frame.ncd 
+xst -intstyle ise -ifn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.xst" -ofn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Frame.ucf -p xc7k160t-ffg676-2L Frame.ngc Frame.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Frame_map.ncd Frame.ngd Frame.pcf 
+par -w -intstyle ise -ol high -mt off Frame_map.ncd Frame.ncd Frame.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Frame.twx Frame.ncd -o Frame.twr Frame.pcf -ucf Frame.ucf 
+bitgen -intstyle ise -f Frame.ut Frame.ncd 
+xst -intstyle ise -ifn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.xst" -ofn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Frame.ucf -p xc7k160t-ffg676-2L Frame.ngc Frame.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Frame_map.ncd Frame.ngd Frame.pcf 
+xst -intstyle ise -ifn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.xst" -ofn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.syr" 
+xst -intstyle ise -ifn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.xst" -ofn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Frame.ucf -p xc7k160t-ffg676-2L Frame.ngc Frame.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Frame_map.ncd Frame.ngd Frame.pcf 
+par -w -intstyle ise -ol high -mt off Frame_map.ncd Frame.ncd Frame.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Frame.twx Frame.ncd -o Frame.twr Frame.pcf -ucf Frame.ucf 
+bitgen -intstyle ise -f Frame.ut Frame.ncd 
+xst -intstyle ise -ifn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.xst" -ofn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Frame.ucf -p xc7k160t-ffg676-2L Frame.ngc Frame.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Frame_map.ncd Frame.ngd Frame.pcf 
+par -w -intstyle ise -ol high -mt off Frame_map.ncd Frame.ncd Frame.pcf 
+bitgen -intstyle ise -f Frame.ut Frame.ncd 
+xst -intstyle ise -ifn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.xst" -ofn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Frame.ucf -p xc7k160t-ffg676-2L Frame.ngc Frame.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Frame_map.ncd Frame.ngd Frame.pcf 
+par -w -intstyle ise -ol high -mt off Frame_map.ncd Frame.ncd Frame.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Frame.twx Frame.ncd -o Frame.twr Frame.pcf -ucf Frame.ucf 
+bitgen -intstyle ise -f Frame.ut Frame.ncd 
+xst -intstyle ise -ifn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.xst" -ofn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Frame.ucf -p xc7k160t-ffg676-2L Frame.ngc Frame.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Frame_map.ncd Frame.ngd Frame.pcf 
+par -w -intstyle ise -ol high -mt off Frame_map.ncd Frame.ncd Frame.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Frame.twx Frame.ncd -o Frame.twr Frame.pcf -ucf Frame.ucf 
+bitgen -intstyle ise -f Frame.ut Frame.ncd 
+xst -intstyle ise -ifn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.xst" -ofn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Frame.ucf -p xc7k160t-ffg676-2L Frame.ngc Frame.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Frame_map.ncd Frame.ngd Frame.pcf 
+par -w -intstyle ise -ol high -mt off Frame_map.ncd Frame.ncd Frame.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Frame.twx Frame.ncd -o Frame.twr Frame.pcf -ucf Frame.ucf 
+bitgen -intstyle ise -f Frame.ut Frame.ncd 
+xst -intstyle ise -ifn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.xst" -ofn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.syr" 
+xst -intstyle ise -ifn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.xst" -ofn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.syr" 
+xst -intstyle ise -ifn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.xst" -ofn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Frame.ucf -p xc7k160t-ffg676-2L Frame.ngc Frame.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Frame_map.ncd Frame.ngd Frame.pcf 
+par -w -intstyle ise -ol high -mt off Frame_map.ncd Frame.ncd Frame.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Frame.twx Frame.ncd -o Frame.twr Frame.pcf -ucf Frame.ucf 
+bitgen -intstyle ise -f Frame.ut Frame.ncd 
+xst -intstyle ise -ifn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.xst" -ofn "C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Frame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Frame.ucf -p xc7k160t-ffg676-2L Frame.ngc Frame.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Frame_map.ncd Frame.ngd Frame.pcf 
+par -w -intstyle ise -ol high -mt off Frame_map.ncd Frame.ncd Frame.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Frame.twx Frame.ncd -o Frame.twr Frame.pcf -ucf Frame.ucf 
+bitgen -intstyle ise -f Frame.ut Frame.ncd 

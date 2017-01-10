@@ -10,39 +10,39 @@ Target Device  : xc7k160t
 Target Package : ffg676
 Target Speed   : -2l
 Mapper Version : kintex7 -- $Revision: 1.55 $
-Mapped Date    : Tue Jan 10 12:47:19 2017
+Mapped Date    : Tue Jan 10 13:27:19 2017
 
 Design Summary
 --------------
 Number of errors:      0
 Number of warnings:    0
 Slice Logic Utilization:
-  Number of Slice Registers:                   324 out of 202,800    1%
-    Number used as Flip Flops:                 324
+  Number of Slice Registers:                   356 out of 202,800    1%
+    Number used as Flip Flops:                 356
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                0
-  Number of Slice LUTs:                        685 out of 101,400    1%
-    Number used as logic:                      679 out of 101,400    1%
-      Number using O6 output only:             471
-      Number using O5 output only:             142
-      Number using O5 and O6:                   66
+  Number of Slice LUTs:                        716 out of 101,400    1%
+    Number used as logic:                      709 out of 101,400    1%
+      Number using O6 output only:             497
+      Number using O5 output only:             141
+      Number using O5 and O6:                   71
       Number used as ROM:                        0
     Number used as Memory:                       0 out of  35,000    0%
-    Number used exclusively as route-thrus:      6
-      Number with same-slice register load:      0
+    Number used exclusively as route-thrus:      7
+      Number with same-slice register load:      1
       Number with same-slice carry load:         6
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   234 out of  25,350    1%
-  Number of LUT Flip Flop pairs used:          703
-    Number with an unused Flip Flop:           389 out of     703   55%
-    Number with an unused LUT:                  18 out of     703    2%
-    Number of fully used LUT-FF pairs:         296 out of     703   42%
-    Number of unique control sets:              12
+  Number of occupied Slices:                   257 out of  25,350    1%
+  Number of LUT Flip Flop pairs used:          747
+    Number with an unused Flip Flop:           398 out of     747   53%
+    Number with an unused LUT:                  31 out of     747    4%
+    Number of fully used LUT-FF pairs:         318 out of     747   42%
+    Number of unique control sets:              13
     Number of slice register sites lost
-      to control set restrictions:              28 out of 202,800    1%
+      to control set restrictions:              36 out of 202,800    1%
 
   A LUT Flip Flop pair for this architecture represents one LUT paired with
   one Flip Flop within a slice.  A control set is a unique combination of
@@ -91,11 +91,11 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of XADCs:                               0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                3.13
+Average Fanout of Non-Clock Nets:                3.19
 
-Peak Memory Usage:  1046 MB
-Total REAL time to MAP completion:  40 secs 
-Total CPU time to MAP completion:   40 secs 
+Peak Memory Usage:  1045 MB
+Total REAL time to MAP completion:  39 secs 
+Total CPU time to MAP completion:   39 secs 
 
 Table of Contents
 -----------------
@@ -362,41 +362,58 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
  The signal "XLXI_43/F/XLXN_27" is loadless and has been removed.
   Loadless block "XLXI_43/F/XLXI_10" (AND) removed.
    The signal "XLXN_233" is loadless and has been removed.
-    Loadless block "XLXI_50/Mcompar_sel_cy<15>_inv1_cy" (MUX) removed.
+    Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<15>_inv1_cy" (MUX)
+removed.
      The signal "XLXI_50/EN_inv" is loadless and has been removed.
-      Loadless block "XLXI_50/Mcompar_sel_cy<15>" (MUX) removed.
-       The signal "XLXI_50/Mcompar_sel_cy<14>" is loadless and has been removed.
-        Loadless block "XLXI_50/Mcompar_sel_cy<14>" (MUX) removed.
-         The signal "XLXI_50/Mcompar_sel_cy<13>" is loadless and has been removed.
-          Loadless block "XLXI_50/Mcompar_sel_cy<13>" (MUX) removed.
-           The signal "XLXI_50/Mcompar_sel_cy<12>" is loadless and has been removed.
-            Loadless block "XLXI_50/Mcompar_sel_cy<12>" (MUX) removed.
-             The signal "XLXI_50/Mcompar_sel_cy<11>" is loadless and has been removed.
-              Loadless block "XLXI_50/Mcompar_sel_cy<11>" (MUX) removed.
-               The signal "XLXI_50/Mcompar_sel_cy<10>" is loadless and has been removed.
-                Loadless block "XLXI_50/Mcompar_sel_cy<10>" (MUX) removed.
-                 The signal "XLXI_50/Mcompar_sel_cy<9>" is loadless and has been removed.
-                  Loadless block "XLXI_50/Mcompar_sel_cy<9>" (MUX) removed.
-                   The signal "XLXI_50/Mcompar_sel_cy<8>" is loadless and has been removed.
-                    Loadless block "XLXI_50/Mcompar_sel_cy<8>" (MUX) removed.
-                     The signal "XLXI_50/Mcompar_sel_cy<7>" is loadless and has been removed.
-                      Loadless block "XLXI_50/Mcompar_sel_cy<7>" (MUX) removed.
-                       The signal "XLXI_50/Mcompar_sel_cy<6>" is loadless and has been removed.
-                        Loadless block "XLXI_50/Mcompar_sel_cy<6>" (MUX) removed.
-                         The signal "XLXI_50/Mcompar_sel_cy<5>" is loadless and has been removed.
-                          Loadless block "XLXI_50/Mcompar_sel_cy<5>" (MUX) removed.
-                           The signal "XLXI_50/Mcompar_sel_cy<4>" is loadless and has been removed.
-                            Loadless block "XLXI_50/Mcompar_sel_cy<4>" (MUX) removed.
-                             The signal "XLXI_50/Mcompar_sel_cy<3>" is loadless and has been removed.
-                              Loadless block "XLXI_50/Mcompar_sel_cy<3>" (MUX) removed.
-                               The signal "XLXI_50/Mcompar_sel_cy<2>" is loadless and has been removed.
-                                Loadless block "XLXI_50/Mcompar_sel_cy<2>" (MUX) removed.
-                                 The signal "XLXI_50/Mcompar_sel_cy<1>" is loadless and has been removed.
-                                  Loadless block "XLXI_50/Mcompar_sel_cy<1>" (MUX) removed.
-                                   The signal "XLXI_50/Mcompar_sel_cy<0>" is loadless and has been removed.
-                                    Loadless block "XLXI_50/Mcompar_sel_cy<0>" (MUX) removed.
-                                     The signal "XLXI_50/Mcompar_sel_lutdi" is loadless and has been removed.
-                                      Loadless block "XLXI_50/Mcompar_sel_lutdi" (ROM) removed.
+      Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<15>" (MUX) removed.
+       The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<14>" is loadless and has
+been removed.
+        Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<14>" (MUX) removed.
+         The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<13>" is loadless and has
+been removed.
+          Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<13>" (MUX) removed.
+           The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<12>" is loadless and has
+been removed.
+            Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<12>" (MUX) removed.
+             The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<11>" is loadless and has
+been removed.
+              Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<11>" (MUX) removed.
+               The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<10>" is loadless and has
+been removed.
+                Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<10>" (MUX) removed.
+                 The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<9>" is loadless and has
+been removed.
+                  Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<9>" (MUX) removed.
+                   The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<8>" is loadless and has
+been removed.
+                    Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<8>" (MUX) removed.
+                     The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<7>" is loadless and has
+been removed.
+                      Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<7>" (MUX) removed.
+                       The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<6>" is loadless and has
+been removed.
+                        Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<6>" (MUX) removed.
+                         The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<5>" is loadless and has
+been removed.
+                          Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<5>" (MUX) removed.
+                           The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<4>" is loadless and has
+been removed.
+                            Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<4>" (MUX) removed.
+                             The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<3>" is loadless and has
+been removed.
+                              Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<3>" (MUX) removed.
+                               The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<2>" is loadless and has
+been removed.
+                                Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<2>" (MUX) removed.
+                                 The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<1>" is loadless and has
+been removed.
+                                  Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<1>" (MUX) removed.
+                                   The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<0>" is loadless and has
+been removed.
+                                    Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_cy<0>" (MUX) removed.
+                                     The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi" is loadless and has
+been removed.
+                                      Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi" (ROM) removed.
                                        The signal "XLXN_216<1>" is loadless and has been removed.
                                         Loadless block "XLXI_43/MUX_REGB/M1/XLXI_75" (OR) removed.
                                          The signal "XLXI_43/MUX_REGB/M1/XLXN_109" is loadless and has been removed.
@@ -411,8 +428,8 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
 *Loadless block "XLXN_237<0>_inv1_INV_0" (BUF) removed.
 * The signal "XLXI_50/W2<0>" is loadless and has been removed.
 *  Loadless block "XLXI_50/W2_0" (FF) removed.
-*   The signal "M1/clkdiv_20_BUFG" is loadless and has been removed.
-*    Loadless block "M1/clkdiv_20_BUFG" (CKBUF) removed.
+*   The signal "M1/clkdiv_16_BUFG" is loadless and has been removed.
+*    Loadless block "M1/clkdiv_16_BUFG" (CKBUF) removed.
 *   The signal "XLXI_50/W2_0_rstpot" is loadless and has been removed.
 *    Loadless block "XLXI_50/W2_0_rstpot" (ROM) removed.
                                                  The signal "XLXI_50/W1<1>" is loadless and has been removed.
@@ -495,10 +512,12 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
                                                 Loadless block "XLXI_43/MUX_REGB/M1/M1/XLXI_22" (AND) removed.
                                        The signal "XLXN_218<1>" is loadless and has been removed.
                                         Loadless block "XLXI_47/Mmux_o121" (ROM) removed.
-                                     The signal "XLXI_50/Mcompar_sel_lut<0>" is loadless and has been removed.
-                                      Loadless block "XLXI_50/Mcompar_sel_lut<0>" (ROM) removed.
-                                   The signal "XLXI_50/Mcompar_sel_lutdi1" is loadless and has been removed.
-                                    Loadless block "XLXI_50/Mcompar_sel_lutdi1" (ROM) removed.
+                                     The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<0>" is loadless and has
+been removed.
+                                      Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<0>" (ROM) removed.
+                                   The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi1" is loadless and has
+been removed.
+                                    Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi1" (ROM) removed.
                                      The signal "XLXN_216<3>" is loadless and has been removed.
                                       Loadless block "XLXI_43/MUX_REGB/M1/XLXI_77" (OR) removed.
                                        The signal "XLXI_43/MUX_REGB/M1/XLXN_113" is loadless and has been removed.
@@ -555,10 +574,12 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
                                               Loadless block "XLXI_43/MUX_REGB/M1/M1/XLXI_38" (AND) removed.
                                      The signal "XLXN_218<3>" is loadless and has been removed.
                                       Loadless block "XLXI_47/Mmux_o261" (ROM) removed.
-                                   The signal "XLXI_50/Mcompar_sel_lut<1>" is loadless and has been removed.
-                                    Loadless block "XLXI_50/Mcompar_sel_lut<1>" (ROM) removed.
-                                 The signal "XLXI_50/Mcompar_sel_lutdi2" is loadless and has been removed.
-                                  Loadless block "XLXI_50/Mcompar_sel_lutdi2" (ROM) removed.
+                                   The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<1>" is loadless and has
+been removed.
+                                    Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<1>" (ROM) removed.
+                                 The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi2" is loadless and has
+been removed.
+                                  Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi2" (ROM) removed.
                                    The signal "XLXN_216<5>" is loadless and has been removed.
                                     Loadless block "XLXI_43/MUX_REGB/M1/XLXI_79" (OR) removed.
                                      The signal "XLXI_43/MUX_REGB/M1/XLXN_117" is loadless and has been removed.
@@ -639,10 +660,12 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
                                             Loadless block "XLXI_43/MUX_REGB/M1/M3/XLXI_22" (AND) removed.
                                    The signal "XLXN_218<5>" is loadless and has been removed.
                                     Loadless block "XLXI_47/Mmux_o281" (ROM) removed.
-                                 The signal "XLXI_50/Mcompar_sel_lut<2>" is loadless and has been removed.
-                                  Loadless block "XLXI_50/Mcompar_sel_lut<2>" (ROM) removed.
-                               The signal "XLXI_50/Mcompar_sel_lutdi3" is loadless and has been removed.
-                                Loadless block "XLXI_50/Mcompar_sel_lutdi3" (ROM) removed.
+                                 The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<2>" is loadless and has
+been removed.
+                                  Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<2>" (ROM) removed.
+                               The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi3" is loadless and has
+been removed.
+                                Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi3" (ROM) removed.
                                  The signal "XLXN_216<7>" is loadless and has been removed.
                                   Loadless block "XLXI_43/MUX_REGB/M1/XLXI_83" (OR) removed.
                                    The signal "XLXI_43/MUX_REGB/M1/XLXN_121" is loadless and has been removed.
@@ -699,10 +722,12 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
                                           Loadless block "XLXI_43/MUX_REGB/M1/M3/XLXI_38" (AND) removed.
                                  The signal "XLXN_218<7>" is loadless and has been removed.
                                   Loadless block "XLXI_47/Mmux_o301" (ROM) removed.
-                               The signal "XLXI_50/Mcompar_sel_lut<3>" is loadless and has been removed.
-                                Loadless block "XLXI_50/Mcompar_sel_lut<3>" (ROM) removed.
-                             The signal "XLXI_50/Mcompar_sel_lutdi4" is loadless and has been removed.
-                              Loadless block "XLXI_50/Mcompar_sel_lutdi4" (ROM) removed.
+                               The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<3>" is loadless and has
+been removed.
+                                Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<3>" (ROM) removed.
+                             The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi4" is loadless and has
+been removed.
+                              Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi4" (ROM) removed.
                                The signal "XLXN_216<9>" is loadless and has been removed.
                                 Loadless block "XLXI_43/MUX_REGB/M2/XLXI_75" (OR) removed.
                                  The signal "XLXI_43/MUX_REGB/M2/XLXN_109" is loadless and has been removed.
@@ -785,10 +810,12 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
                                         Loadless block "XLXI_43/MUX_REGB/M2/M1/XLXI_22" (AND) removed.
                                The signal "XLXN_218<9>" is loadless and has been removed.
                                 Loadless block "XLXI_47/Mmux_o321" (ROM) removed.
-                             The signal "XLXI_50/Mcompar_sel_lut<4>" is loadless and has been removed.
-                              Loadless block "XLXI_50/Mcompar_sel_lut<4>" (ROM) removed.
-                           The signal "XLXI_50/Mcompar_sel_lutdi5" is loadless and has been removed.
-                            Loadless block "XLXI_50/Mcompar_sel_lutdi5" (ROM) removed.
+                             The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<4>" is loadless and has
+been removed.
+                              Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<4>" (ROM) removed.
+                           The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi5" is loadless and has
+been removed.
+                            Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi5" (ROM) removed.
                              The signal "XLXN_216<11>" is loadless and has been removed.
                               Loadless block "XLXI_43/MUX_REGB/M2/XLXI_77" (OR) removed.
                                The signal "XLXI_43/MUX_REGB/M2/XLXN_113" is loadless and has been removed.
@@ -845,10 +872,12 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
                                       Loadless block "XLXI_43/MUX_REGB/M2/M1/XLXI_38" (AND) removed.
                              The signal "XLXN_218<11>" is loadless and has been removed.
                               Loadless block "XLXI_47/Mmux_o31" (ROM) removed.
-                           The signal "XLXI_50/Mcompar_sel_lut<5>" is loadless and has been removed.
-                            Loadless block "XLXI_50/Mcompar_sel_lut<5>" (ROM) removed.
-                         The signal "XLXI_50/Mcompar_sel_lutdi6" is loadless and has been removed.
-                          Loadless block "XLXI_50/Mcompar_sel_lutdi6" (ROM) removed.
+                           The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<5>" is loadless and has
+been removed.
+                            Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<5>" (ROM) removed.
+                         The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi6" is loadless and has
+been removed.
+                          Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi6" (ROM) removed.
                            The signal "XLXN_216<13>" is loadless and has been removed.
                             Loadless block "XLXI_43/MUX_REGB/M2/XLXI_79" (OR) removed.
                              The signal "XLXI_43/MUX_REGB/M2/XLXN_117" is loadless and has been removed.
@@ -929,10 +958,12 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
                                     Loadless block "XLXI_43/MUX_REGB/M2/M3/XLXI_22" (AND) removed.
                            The signal "XLXN_218<13>" is loadless and has been removed.
                             Loadless block "XLXI_47/Mmux_o51" (ROM) removed.
-                         The signal "XLXI_50/Mcompar_sel_lut<6>" is loadless and has been removed.
-                          Loadless block "XLXI_50/Mcompar_sel_lut<6>" (ROM) removed.
-                       The signal "XLXI_50/Mcompar_sel_lutdi7" is loadless and has been removed.
-                        Loadless block "XLXI_50/Mcompar_sel_lutdi7" (ROM) removed.
+                         The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<6>" is loadless and has
+been removed.
+                          Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<6>" (ROM) removed.
+                       The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi7" is loadless and has
+been removed.
+                        Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi7" (ROM) removed.
                          The signal "XLXN_216<15>" is loadless and has been removed.
                           Loadless block "XLXI_43/MUX_REGB/M2/XLXI_83" (OR) removed.
                            The signal "XLXI_43/MUX_REGB/M2/XLXN_121" is loadless and has been removed.
@@ -989,10 +1020,12 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
                                   Loadless block "XLXI_43/MUX_REGB/M2/M3/XLXI_38" (AND) removed.
                          The signal "XLXN_218<15>" is loadless and has been removed.
                           Loadless block "XLXI_47/Mmux_o71" (ROM) removed.
-                       The signal "XLXI_50/Mcompar_sel_lut<7>" is loadless and has been removed.
-                        Loadless block "XLXI_50/Mcompar_sel_lut<7>" (ROM) removed.
-                     The signal "XLXI_50/Mcompar_sel_lutdi8" is loadless and has been removed.
-                      Loadless block "XLXI_50/Mcompar_sel_lutdi8" (ROM) removed.
+                       The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<7>" is loadless and has
+been removed.
+                        Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<7>" (ROM) removed.
+                     The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi8" is loadless and has
+been removed.
+                      Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi8" (ROM) removed.
                        The signal "XLXN_216<17>" is loadless and has been removed.
                         Loadless block "XLXI_43/MUX_REGB/M3/XLXI_75" (OR) removed.
                          The signal "XLXI_43/MUX_REGB/M3/XLXN_109" is loadless and has been removed.
@@ -1075,10 +1108,12 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
                                 Loadless block "XLXI_43/MUX_REGB/M3/M1/XLXI_22" (AND) removed.
                        The signal "XLXN_218<17>" is loadless and has been removed.
                         Loadless block "XLXI_47/Mmux_o91" (ROM) removed.
-                     The signal "XLXI_50/Mcompar_sel_lut<8>" is loadless and has been removed.
-                      Loadless block "XLXI_50/Mcompar_sel_lut<8>" (ROM) removed.
-                   The signal "XLXI_50/Mcompar_sel_lutdi9" is loadless and has been removed.
-                    Loadless block "XLXI_50/Mcompar_sel_lutdi9" (ROM) removed.
+                     The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<8>" is loadless and has
+been removed.
+                      Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<8>" (ROM) removed.
+                   The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi9" is loadless and has
+been removed.
+                    Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi9" (ROM) removed.
                      The signal "XLXN_216<19>" is loadless and has been removed.
                       Loadless block "XLXI_43/MUX_REGB/M3/XLXI_77" (OR) removed.
                        The signal "XLXI_43/MUX_REGB/M3/XLXN_113" is loadless and has been removed.
@@ -1135,10 +1170,12 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
                               Loadless block "XLXI_43/MUX_REGB/M3/M1/XLXI_38" (AND) removed.
                      The signal "XLXN_218<19>" is loadless and has been removed.
                       Loadless block "XLXI_47/Mmux_o111" (ROM) removed.
-                   The signal "XLXI_50/Mcompar_sel_lut<9>" is loadless and has been removed.
-                    Loadless block "XLXI_50/Mcompar_sel_lut<9>" (ROM) removed.
-                 The signal "XLXI_50/Mcompar_sel_lutdi10" is loadless and has been removed.
-                  Loadless block "XLXI_50/Mcompar_sel_lutdi10" (ROM) removed.
+                   The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<9>" is loadless and has
+been removed.
+                    Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<9>" (ROM) removed.
+                 The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi10" is loadless and
+has been removed.
+                  Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi10" (ROM) removed.
                    The signal "XLXN_216<21>" is loadless and has been removed.
                     Loadless block "XLXI_43/MUX_REGB/M3/XLXI_79" (OR) removed.
                      The signal "XLXI_43/MUX_REGB/M3/XLXN_117" is loadless and has been removed.
@@ -1219,10 +1256,12 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
                             Loadless block "XLXI_43/MUX_REGB/M3/M3/XLXI_22" (AND) removed.
                    The signal "XLXN_218<21>" is loadless and has been removed.
                     Loadless block "XLXI_47/Mmux_o141" (ROM) removed.
-                 The signal "XLXI_50/Mcompar_sel_lut<10>" is loadless and has been removed.
-                  Loadless block "XLXI_50/Mcompar_sel_lut<10>" (ROM) removed.
-               The signal "XLXI_50/Mcompar_sel_lutdi11" is loadless and has been removed.
-                Loadless block "XLXI_50/Mcompar_sel_lutdi11" (ROM) removed.
+                 The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<10>" is loadless and
+has been removed.
+                  Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<10>" (ROM) removed.
+               The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi11" is loadless and
+has been removed.
+                Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi11" (ROM) removed.
                  The signal "XLXN_216<23>" is loadless and has been removed.
                   Loadless block "XLXI_43/MUX_REGB/M3/XLXI_83" (OR) removed.
                    The signal "XLXI_43/MUX_REGB/M3/XLXN_121" is loadless and has been removed.
@@ -1279,10 +1318,12 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
                           Loadless block "XLXI_43/MUX_REGB/M3/M3/XLXI_38" (AND) removed.
                  The signal "XLXN_218<23>" is loadless and has been removed.
                   Loadless block "XLXI_47/Mmux_o161" (ROM) removed.
-               The signal "XLXI_50/Mcompar_sel_lut<11>" is loadless and has been removed.
-                Loadless block "XLXI_50/Mcompar_sel_lut<11>" (ROM) removed.
-             The signal "XLXI_50/Mcompar_sel_lutdi12" is loadless and has been removed.
-              Loadless block "XLXI_50/Mcompar_sel_lutdi12" (ROM) removed.
+               The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<11>" is loadless and
+has been removed.
+                Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<11>" (ROM) removed.
+             The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi12" is loadless and
+has been removed.
+              Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi12" (ROM) removed.
                The signal "XLXN_216<25>" is loadless and has been removed.
                 Loadless block "XLXI_43/MUX_REGB/M4/XLXI_75" (OR) removed.
                  The signal "XLXI_43/MUX_REGB/M4/XLXN_109" is loadless and has been removed.
@@ -1365,10 +1406,12 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
                         Loadless block "XLXI_43/MUX_REGB/M4/M1/XLXI_22" (AND) removed.
                The signal "XLXN_218<25>" is loadless and has been removed.
                 Loadless block "XLXI_47/Mmux_o181" (ROM) removed.
-             The signal "XLXI_50/Mcompar_sel_lut<12>" is loadless and has been removed.
-              Loadless block "XLXI_50/Mcompar_sel_lut<12>" (ROM) removed.
-           The signal "XLXI_50/Mcompar_sel_lutdi13" is loadless and has been removed.
-            Loadless block "XLXI_50/Mcompar_sel_lutdi13" (ROM) removed.
+             The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<12>" is loadless and
+has been removed.
+              Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<12>" (ROM) removed.
+           The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi13" is loadless and
+has been removed.
+            Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi13" (ROM) removed.
              The signal "XLXN_216<27>" is loadless and has been removed.
               Loadless block "XLXI_43/MUX_REGB/M4/XLXI_77" (OR) removed.
                The signal "XLXI_43/MUX_REGB/M4/XLXN_113" is loadless and has been removed.
@@ -1425,10 +1468,12 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
                       Loadless block "XLXI_43/MUX_REGB/M4/M1/XLXI_38" (AND) removed.
              The signal "XLXN_218<27>" is loadless and has been removed.
               Loadless block "XLXI_47/Mmux_o201" (ROM) removed.
-           The signal "XLXI_50/Mcompar_sel_lut<13>" is loadless and has been removed.
-            Loadless block "XLXI_50/Mcompar_sel_lut<13>" (ROM) removed.
-         The signal "XLXI_50/Mcompar_sel_lutdi14" is loadless and has been removed.
-          Loadless block "XLXI_50/Mcompar_sel_lutdi14" (ROM) removed.
+           The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<13>" is loadless and
+has been removed.
+            Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<13>" (ROM) removed.
+         The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi14" is loadless and
+has been removed.
+          Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi14" (ROM) removed.
            The signal "XLXN_216<29>" is loadless and has been removed.
             Loadless block "XLXI_43/MUX_REGB/M4/XLXI_79" (OR) removed.
              The signal "XLXI_43/MUX_REGB/M4/XLXN_117" is loadless and has been removed.
@@ -1509,10 +1554,12 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
                     Loadless block "XLXI_43/MUX_REGB/M4/M3/XLXI_22" (AND) removed.
            The signal "XLXN_218<29>" is loadless and has been removed.
             Loadless block "XLXI_47/Mmux_o221" (ROM) removed.
-         The signal "XLXI_50/Mcompar_sel_lut<14>" is loadless and has been removed.
-          Loadless block "XLXI_50/Mcompar_sel_lut<14>" (ROM) removed.
-       The signal "XLXI_50/Mcompar_sel_lutdi15" is loadless and has been removed.
-        Loadless block "XLXI_50/Mcompar_sel_lutdi15" (ROM) removed.
+         The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<14>" is loadless and
+has been removed.
+          Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<14>" (ROM) removed.
+       The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi15" is loadless and
+has been removed.
+        Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lutdi15" (ROM) removed.
          The signal "XLXN_216<31>" is loadless and has been removed.
           Loadless block "XLXI_43/MUX_REGB/M4/XLXI_83" (OR) removed.
            The signal "XLXI_43/MUX_REGB/M4/XLXN_121" is loadless and has been removed.
@@ -1569,8 +1616,9 @@ Loadless block "XLXI_43/F/XLXI_9" (AND) removed.
                   Loadless block "XLXI_43/MUX_REGB/M4/M3/XLXI_38" (AND) removed.
          The signal "XLXN_218<31>" is loadless and has been removed.
           Loadless block "XLXI_47/Mmux_o251" (ROM) removed.
-       The signal "XLXI_50/Mcompar_sel_lut<15>" is loadless and has been removed.
-        Loadless block "XLXI_50/Mcompar_sel_lut<15>" (ROM) removed.
+       The signal "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<15>" is loadless and
+has been removed.
+        Loadless block "XLXI_50/Mcompar_B[31]_A[31]_LessThan_1_o_lut<15>" (ROM) removed.
    The signal "XLXI_43/F/XLXN_13" is loadless and has been removed.
     Loadless block "XLXI_43/F/XLXI_12" (BUF) removed.
    The signal "XLXI_43/F/XLXN_12" is loadless and has been removed.

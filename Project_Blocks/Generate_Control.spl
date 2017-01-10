@@ -1,5 +1,6 @@
 [Inputs]
 levelup
+rst
 [Outputs]
 =gene_time[31:0]=
 [BiDir]

@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Tue Jan 10 12:47:58 2017
+// Written by: Map P.20131013 on Tue Jan 10 13:27:57 2017
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -69,31 +69,41 @@ TIMEGRP TM_CLK = BEL "XLXI_37/sample_3" BEL "XLXI_37/sample_2" BEL
         "M1/clkdiv_8" BEL "M1/clkdiv_9" BEL "M1/clkdiv_10" BEL "M1/clkdiv_11"
         BEL "M1/clkdiv_12" BEL "M1/clkdiv_13" BEL "M1/clkdiv_14" BEL
         "M1/clkdiv_15" BEL "M1/clkdiv_16" BEL "M1/clkdiv_17" BEL
-        "M1/clkdiv_18" BEL "M1/clkdiv_19" BEL "M1/clkdiv_20" BEL
-        "XLXI_37/aim_FSM_FFd2" BEL "XLXI_37/aim_FSM_FFd1" BEL
-        "XLXI_36/counter_0" BEL "XLXI_36/counter_31" BEL "XLXI_36/counter_30"
-        BEL "XLXI_36/counter_29" BEL "XLXI_36/counter_28" BEL
-        "XLXI_36/counter_27" BEL "XLXI_36/counter_26" BEL "XLXI_36/counter_25"
-        BEL "XLXI_36/counter_24" BEL "XLXI_36/counter_23" BEL
-        "XLXI_36/counter_22" BEL "XLXI_36/counter_21" BEL "XLXI_36/counter_20"
-        BEL "XLXI_36/counter_19" BEL "XLXI_36/counter_18" BEL
-        "XLXI_36/counter_16" BEL "XLXI_36/counter_15" BEL "XLXI_36/counter_17"
-        BEL "XLXI_36/counter_14" BEL "XLXI_36/counter_13" BEL
-        "XLXI_36/counter_12" BEL "XLXI_36/counter_11" BEL "XLXI_36/counter_10"
-        BEL "XLXI_36/counter_9" BEL "XLXI_36/counter_7" BEL
-        "XLXI_36/counter_6" BEL "XLXI_36/counter_8" BEL "XLXI_36/counter_5"
-        BEL "XLXI_36/counter_4" BEL "XLXI_36/counter_3" BEL
-        "XLXI_36/counter_2" BEL "XLXI_36/counter_1" BEL "XLXI_36/num_7" BEL
-        "XLXI_36/num_14" BEL "XLXI_36/num_23" BEL "XLXI_36/num_31" BEL
-        "XLXI_36/num_39" BEL "XLXI_36/num_47" BEL "XLXI_36/num_55" BEL
-        "XLXI_38/num_63" BEL "XLXI_38/num_55" BEL "XLXI_38/num_47" BEL
-        "XLXI_38/num_39" BEL "XLXI_38/num_31" BEL "XLXI_38/num_23" BEL
-        "XLXI_38/num_15" BEL "XLXI_38/num_7" BEL "XLXI_38/num_6" BEL
-        "XLXI_38/num_4" BEL "XLXI_38/num_1" BEL "XLXI_38/gameover" BEL
-        "XLXI_36/EN" BEL "clk_100mhz_BUFGP/BUFG" BEL "M2/SW_OK_1" BEL
-        "M2/SW_OK_2" BEL "M2/SW_OK_6" BEL "M2/SW_OK_7" BEL "M2/SW_OK_15" BEL
-        "M2/CR" BEL "M2/counter1_13" BEL "M2/counter1_14" BEL "M2/counter1_15"
-        BEL "M2/counter1_16" BEL "M2/counter1_17" BEL "M2/counter1_18" BEL
+        "M1/clkdiv_18" BEL "M1/clkdiv_19" BEL "XLXI_37/aim_FSM_FFd2" BEL
+        "XLXI_37/aim_FSM_FFd1" BEL "XLXI_36/counter_0" BEL "XLXI_36/random_1"
+        BEL "XLXI_36/random_0" BEL "XLXI_36/counter_31" BEL
+        "XLXI_36/counter_30" BEL "XLXI_36/counter_29" BEL "XLXI_36/counter_28"
+        BEL "XLXI_36/counter_26" BEL "XLXI_36/counter_25" BEL
+        "XLXI_36/counter_27" BEL "XLXI_36/counter_24" BEL "XLXI_36/counter_23"
+        BEL "XLXI_36/counter_22" BEL "XLXI_36/counter_21" BEL
+        "XLXI_36/counter_20" BEL "XLXI_36/counter_19" BEL "XLXI_36/counter_17"
+        BEL "XLXI_36/counter_16" BEL "XLXI_36/counter_18" BEL
+        "XLXI_36/counter_15" BEL "XLXI_36/counter_14" BEL "XLXI_36/counter_13"
+        BEL "XLXI_36/counter_12" BEL "XLXI_36/counter_11" BEL
+        "XLXI_36/counter_10" BEL "XLXI_36/counter_8" BEL "XLXI_36/counter_7"
+        BEL "XLXI_36/counter_9" BEL "XLXI_36/counter_6" BEL
+        "XLXI_36/counter_5" BEL "XLXI_36/counter_3" BEL "XLXI_36/counter_2"
+        BEL "XLXI_36/counter_4" BEL "XLXI_36/counter_1" BEL "XLXI_36/num_1"
+        BEL "XLXI_36/num_5" BEL "XLXI_36/num_7" BEL "XLXI_36/num_9" BEL
+        "XLXI_36/num_12" BEL "XLXI_36/num_15" BEL "XLXI_36/num_17" BEL
+        "XLXI_36/num_21" BEL "XLXI_36/num_23" BEL "XLXI_36/num_25" BEL
+        "XLXI_36/num_27" BEL "XLXI_36/num_31" BEL "XLXI_36/num_33" BEL
+        "XLXI_36/num_37" BEL "XLXI_36/num_39" BEL "XLXI_36/num_41" BEL
+        "XLXI_36/num_45" BEL "XLXI_36/num_47" BEL "XLXI_36/num_49" BEL
+        "XLXI_36/num_53" BEL "XLXI_36/num_55" BEL "XLXI_38/num_63" BEL
+        "XLXI_38/num_61" BEL "XLXI_38/num_57" BEL "XLXI_38/num_55" BEL
+        "XLXI_38/num_53" BEL "XLXI_38/num_49" BEL "XLXI_38/num_47" BEL
+        "XLXI_38/num_45" BEL "XLXI_38/num_41" BEL "XLXI_38/num_39" BEL
+        "XLXI_38/num_37" BEL "XLXI_38/num_33" BEL "XLXI_38/num_31" BEL
+        "XLXI_38/num_29" BEL "XLXI_38/num_25" BEL "XLXI_38/num_23" BEL
+        "XLXI_38/num_21" BEL "XLXI_38/num_17" BEL "XLXI_38/num_15" BEL
+        "XLXI_38/num_13" BEL "XLXI_38/num_9" BEL "XLXI_38/num_7" BEL
+        "XLXI_38/num_6" BEL "XLXI_38/num_5" BEL "XLXI_38/num_4" BEL
+        "XLXI_38/num_1" BEL "XLXI_38/gameover" BEL "XLXI_36/EN" BEL
+        "clk_100mhz_BUFGP/BUFG" BEL "M2/SW_OK_1" BEL "M2/SW_OK_2" BEL
+        "M2/SW_OK_6" BEL "M2/SW_OK_7" BEL "M2/SW_OK_15" BEL "M2/CR" BEL
+        "M2/counter1_13" BEL "M2/counter1_14" BEL "M2/counter1_15" BEL
+        "M2/counter1_16" BEL "M2/counter1_17" BEL "M2/counter1_18" BEL
         "M2/counter1_19" BEL "M2/counter1_20" BEL "M2/clk1" BEL
         "M2/counter1_0" BEL "M2/counter1_1" BEL "M2/counter1_2" BEL
         "M2/counter1_3" BEL "M2/counter1_4" BEL "M2/counter1_5" BEL

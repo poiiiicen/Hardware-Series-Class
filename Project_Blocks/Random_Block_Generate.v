@@ -21,13 +21,14 @@
 module Random_Block_Generate(input clk,
 									  input rst,
 									  input [31:0] gene_time,
-									  input [1:0] random,
+									  //input [1:0] random,
 									  output [63:0] Disp_num,
 									  output reg EN = 0
     );
 
 reg[31:0] counter = 0;
 reg[63:0] num = 0;
+reg[1:0] random = 0;
 wire[7:0] new_block;
 
 assign Disp_num = {new_block, num[55:0]};
@@ -44,6 +45,8 @@ always @(posedge clk or posedge clk) begin
 			counter <= 0;
 			num[55:0] <= Disp_num[63:8];
 			EN <= 1;
+			if (random == 2'b11) random <= 2'b00;
+			else random <= random + 1;
 		end
 		else begin
 			counter <= counter + 1;

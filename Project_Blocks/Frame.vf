@@ -7,7 +7,7 @@
 // \   \   \/     Version : 14.7
 //  \   \         Application : sch2hdl
 //  /   /         Filename : Frame.vf
-// /___/   /\     Timestamp : 01/10/2017 12:30:30
+// /___/   /\     Timestamp : 01/10/2017 13:22:00
 // \   \  /  \ 
 //  \___\/\___\ 
 //
@@ -880,14 +880,13 @@ module Frame(clk_100mhz,
    P2S  XLXI_33 (.clk(clk_100mhz), 
                 .P_Data(Disp_num[63:0]), 
                 .rst(rst), 
-                .Serial(Div[20]), 
+                .Serial(Div[16]), 
                 .EN(SEGEN), 
                 .sout(SEGDT), 
                 .s_clk(SEGCLk), 
                 .s_clrn(SEGCLR));
    Random_Block_Generate  XLXI_36 (.clk(clk_100mhz), 
                                   .gene_time(XLXN_200[31:0]), 
-                                  .random({G0, G0}), 
                                   .rst(rst), 
                                   .Disp_num(blocks[63:0]), 
                                   .EN(XLXN_194));
@@ -918,7 +917,7 @@ module Frame(clk_100mhz,
                       .Addr_B(XLXN_236[2:0]), 
                       .Addr_W1(XLXN_236[2:0]), 
                       .Addr_W2(XLXN_237[2:0]), 
-                      .clk(Div[20]), 
+                      .clk(Div[16]), 
                       .cr(V5), 
                       .Di1(XLXN_231[31:0]), 
                       .Di2(XLXN_232[31:0]), 
@@ -935,13 +934,14 @@ module Frame(clk_100mhz,
                       .o(XLXN_218[31:0]));
    Compare  XLXI_50 (.A(XLXN_218[31:0]), 
                     .B(XLXN_216[31:0]), 
-                    .clk(Div[20]), 
+                    .clk(Div[16]), 
                     .D1(XLXN_231[31:0]), 
                     .D2(XLXN_232[31:0]), 
                     .EN(XLXN_233), 
                     .W1(XLXN_236[2:0]), 
                     .W2(XLXN_237[2:0]));
    Generate_Control  XLXI_51 (.levelup(XLXN_196), 
+                             .rst(rst), 
                              .gene_time(XLXN_200[31:0]));
    GPIO  XLXI_52 (.clk(clk_100mhz), 
                  .EN(V5), 
