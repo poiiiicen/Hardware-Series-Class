@@ -1,2 +1,0 @@
-vhdtdtfi -lib work C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Reg_32.v -lang verilog -prj Project_Blocks -o Reg_32.spl -module Reg_32 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
-spl2sym -intstyle ise -family kintex7 Reg_32.spl C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Reg_32.sym 

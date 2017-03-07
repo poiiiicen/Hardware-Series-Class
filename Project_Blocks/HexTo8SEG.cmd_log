@@ -1,4 +1,0 @@
-vhdtdtfi -lib work C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/HexTo8SEG.v -lang verilog -prj Project_Blocks -o HexTo8SEG.spl -module HexTo8SEG -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
-spl2sym -intstyle ise -family kintex7 HexTo8SEG.spl C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/HexTo8SEG.sym 
-vhdtdtfi -lib work C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/HexTo8SEG.v -lang verilog -prj Project_Blocks -o HexTo8SEG.spl -module HexTo8SEG -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
-spl2sym -intstyle ise -family kintex7 HexTo8SEG.spl C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/HexTo8SEG.sym 

@@ -1,2 +1,0 @@
-vhdtdtfi -lib work C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Control.v -lang verilog -prj Project_Blocks -o Control.spl -module Control -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
-spl2sym -intstyle ise -family kintex7 Control.spl C:/Users/poi/Repos/Logic-Computer-Design/Project_Blocks/Control.sym 
