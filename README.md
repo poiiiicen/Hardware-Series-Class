@@ -1,2 +1,2 @@
-# Hardware-Series-Class
-Some experiment projects on different Hardware Class.
+# Computer-Organization
+Some experiment projects in Computer-Organization Class.
