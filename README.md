@@ -1,2 +1,2 @@
-# Logic-Computer-Design
-A new project on Logic-Computer Design Class
+# Hardware-Series-Class
+Some experiment projects on different Hardware Class.
