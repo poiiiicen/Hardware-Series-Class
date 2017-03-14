@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Tue Mar 07 16:27:57 2017
+// Written by: Map P.20131013 on Tue Mar 14 14:25:34 2017
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -92,7 +92,23 @@ TIMEGRP TM_CLK = BEL "U8/clkdiv_0" BEL "U8/clkdiv_1" BEL "U8/clkdiv_2" BEL
         "U8/clkdiv_22" BEL "U8/clkdiv_23" BEL "U8/clkdiv_24" BEL
         "U8/clkdiv_25" BEL "U8/clkdiv_26" BEL "U8/clkdiv_27" BEL
         "U8/clkdiv_28" BEL "U8/clkdiv_29" BEL "U8/clkdiv_30" BEL
-        "U8/clkdiv_31" BEL "clk_100mhz_BUFGP/BUFG" BEL "U9/SW_OK_0" BEL
+        "U8/clkdiv_31" BEL "U5/cpu_blink_7" BEL "U5/cpu_blink_6" BEL
+        "U5/cpu_blink_5" BEL "U5/cpu_blink_4" BEL "U5/cpu_blink_3" BEL
+        "U5/cpu_blink_2" BEL "U5/cpu_blink_1" BEL "U5/cpu_blink_0" BEL
+        "U5/disp_data_31" BEL "U5/disp_data_30" BEL "U5/disp_data_29" BEL
+        "U5/disp_data_28" BEL "U5/disp_data_27" BEL "U5/disp_data_26" BEL
+        "U5/disp_data_25" BEL "U5/disp_data_24" BEL "U5/disp_data_23" BEL
+        "U5/disp_data_22" BEL "U5/disp_data_21" BEL "U5/disp_data_20" BEL
+        "U5/disp_data_19" BEL "U5/disp_data_18" BEL "U5/disp_data_17" BEL
+        "U5/disp_data_16" BEL "U5/disp_data_15" BEL "U5/disp_data_14" BEL
+        "U5/disp_data_13" BEL "U5/disp_data_12" BEL "U5/disp_data_11" BEL
+        "U5/disp_data_10" BEL "U5/disp_data_9" BEL "U5/disp_data_8" BEL
+        "U5/disp_data_7" BEL "U5/disp_data_6" BEL "U5/disp_data_5" BEL
+        "U5/disp_data_4" BEL "U5/disp_data_3" BEL "U5/disp_data_2" BEL
+        "U5/disp_data_1" BEL "U5/disp_data_0" BEL "U5/cpu_point_7" BEL
+        "U5/cpu_point_6" BEL "U5/cpu_point_5" BEL "U5/cpu_point_4" BEL
+        "U5/cpu_point_3" BEL "U5/cpu_point_2" BEL "U5/cpu_point_1" BEL
+        "U5/cpu_point_0" BEL "clk_100mhz_BUFGP/BUFG" BEL "U9/SW_OK_0" BEL
         "U9/SW_OK_1" BEL "U9/SW_OK_3" BEL "U9/SW_OK_4" BEL "U9/SW_OK_5" BEL
         "U9/SW_OK_6" BEL "U9/SW_OK_7" BEL "U9/SW_OK_15" BEL "U9/CR" BEL
         "U9/counter1_13" BEL "U9/counter1_14" BEL "U9/counter1_15" BEL
@@ -128,22 +144,6 @@ TIMEGRP TM_CLK = BEL "U8/clkdiv_0" BEL "U8/clkdiv_1" BEL "U8/clkdiv_2" BEL
         BEL "M4/Ai_18" BEL "M4/Ai_22" BEL "M4/Ai_26" BEL "M4/Ai_30" BEL
         "M4/Bi_2" BEL "M4/Bi_6" BEL "M4/Bi_10" BEL "M4/Bi_14" BEL "M4/Bi_18"
         BEL "M4/Bi_22" BEL "M4/Bi_26" BEL "M4/Bi_30" BEL "M4/readn" BEL
-        "U5/cpu_point_0" BEL "U5/cpu_point_1" BEL "U5/cpu_point_2" BEL
-        "U5/cpu_point_3" BEL "U5/cpu_point_4" BEL "U5/cpu_point_5" BEL
-        "U5/cpu_point_6" BEL "U5/cpu_point_7" BEL "U5/disp_data_0" BEL
-        "U5/disp_data_1" BEL "U5/disp_data_2" BEL "U5/disp_data_3" BEL
-        "U5/disp_data_4" BEL "U5/disp_data_5" BEL "U5/disp_data_6" BEL
-        "U5/disp_data_7" BEL "U5/disp_data_8" BEL "U5/disp_data_9" BEL
-        "U5/disp_data_10" BEL "U5/disp_data_11" BEL "U5/disp_data_12" BEL
-        "U5/disp_data_13" BEL "U5/disp_data_14" BEL "U5/disp_data_15" BEL
-        "U5/disp_data_16" BEL "U5/disp_data_17" BEL "U5/disp_data_18" BEL
-        "U5/disp_data_19" BEL "U5/disp_data_20" BEL "U5/disp_data_21" BEL
-        "U5/disp_data_22" BEL "U5/disp_data_23" BEL "U5/disp_data_24" BEL
-        "U5/disp_data_25" BEL "U5/disp_data_26" BEL "U5/disp_data_27" BEL
-        "U5/disp_data_28" BEL "U5/disp_data_29" BEL "U5/disp_data_30" BEL
-        "U5/disp_data_31" BEL "U5/cpu_blink_0" BEL "U5/cpu_blink_1" BEL
-        "U5/cpu_blink_2" BEL "U5/cpu_blink_3" BEL "U5/cpu_blink_4" BEL
-        "U5/cpu_blink_5" BEL "U5/cpu_blink_6" BEL "U5/cpu_blink_7" BEL
         "U6/M2/state_FSM_FFd1" BEL "U6/M2/state_FSM_FFd2" BEL "U6/M2/start_1"
         BEL "U6/M2/start_0" BEL "U6/M2/s_clk" BEL "U6/M2/EN" BEL
         "U6/M2/shift_count_4" BEL "U6/M2/shift_count_3" BEL

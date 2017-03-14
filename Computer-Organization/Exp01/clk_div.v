@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date:    17:19:38 07/17/2012 
+// Create Date:    14:22:00 03/14/2017 
 // Design Name: 
 // Module Name:    clk_div 
 // Project Name: 
@@ -21,16 +21,14 @@
 module clk_div(input clk,
 					input rst,
 					input SW2,
-					output reg[31:0]clkdiv,
+					output reg [31:0] clkdiv,
 					output Clk_CPU
-					);
-					
-// Clock divider-Ê±ÖÓ·ÖÆµÆ÷
+    );
 
+always @(posedge clk or posedge rst) begin
+	if (rst) clkdiv <= 0;
+	else clkdiv <= clkdiv + 1;
+end
 
-	always @ (posedge clk or posedge rst) begin 
-		if (rst) clkdiv <= 0; else clkdiv <= clkdiv + 1'b1; end
-		
-	assign Clk_CPU=(SW2)? clkdiv[24] : clkdiv[2];
-		
+assign Clk_CPU = (SW2) ? clkdiv[24] : clkdiv[2];
 endmodule

@@ -108,27 +108,31 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\SSeg7_Dev_IO.v" into library work
+Analyzing Verilog file "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\MUX8T1_8.v" into library work
+Parsing module <MUX8T1_8>.
+Analyzing Verilog file "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\MUX8T1_32.v" into library work
+Parsing module <MUX8T1_32>.
+Analyzing Verilog file "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\SSeg7_Dev_IO.v" into library work
 Parsing module <SSeg7_Dev>.
-Analyzing Verilog file "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\SPIO_IO.v" into library work
+Analyzing Verilog file "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\SPIO_IO.v" into library work
 Parsing module <SPIO>.
-Analyzing Verilog file "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\SEnter_2_32_IO.v" into library work
+Analyzing Verilog file "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\SEnter_2_32_IO.v" into library work
 Parsing module <SEnter_2_32>.
-Analyzing Verilog file "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\Seg7_Dev_IO.v" into library work
+Analyzing Verilog file "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\Seg7_Dev_IO.v" into library work
 Parsing module <Seg7_Dev>.
-Analyzing Verilog file "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\SAnti_jitter_IO.v" into library work
+Analyzing Verilog file "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\SAnti_jitter_IO.v" into library work
 Parsing module <SAnti_jitter>.
-Analyzing Verilog file "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\PIO_IO.v" into library work
+Analyzing Verilog file "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\PIO_IO.v" into library work
 Parsing module <PIO>.
-Analyzing Verilog file "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\Multi_8CH32_IO.v" into library work
+Analyzing Verilog file "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\Multi_8CH32.v" into library work
 Parsing module <Multi_8CH32>.
-Analyzing Verilog file "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\ipcore_dir\ROM_D.v" into library work
+Analyzing Verilog file "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\ipcore_dir\ROM_D.v" into library work
 Parsing module <ROM_D>.
-Analyzing Verilog file "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\ipcore_dir\RAM_B.v" into library work
+Analyzing Verilog file "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\ipcore_dir\RAM_B.v" into library work
 Parsing module <RAM_B>.
-Analyzing Verilog file "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\clk_div.v" into library work
+Analyzing Verilog file "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\clk_div.v" into library work
 Parsing module <clk_div>.
-Analyzing Verilog file "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" into library work
+Analyzing Verilog file "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" into library work
 Parsing module <Frame>.
 
 =========================================================================
@@ -138,35 +142,39 @@ Parsing module <Frame>.
 Elaborating module <Frame>.
 
 Elaborating module <SEnter_2_32>.
-WARNING:HDLCompiler:1499 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\SEnter_2_32_IO.v" Line 21: Empty module <SEnter_2_32> remains a black box.
+WARNING:HDLCompiler:1499 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\SEnter_2_32_IO.v" Line 21: Empty module <SEnter_2_32> remains a black box.
 
 Elaborating module <ROM_D>.
-WARNING:HDLCompiler:1499 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\ipcore_dir\ROM_D.v" Line 39: Empty module <ROM_D> remains a black box.
+WARNING:HDLCompiler:1499 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\ipcore_dir\ROM_D.v" Line 39: Empty module <ROM_D> remains a black box.
 
 Elaborating module <RAM_B>.
-WARNING:HDLCompiler:1499 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\ipcore_dir\RAM_B.v" Line 39: Empty module <RAM_B> remains a black box.
+WARNING:HDLCompiler:1499 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\ipcore_dir\RAM_B.v" Line 39: Empty module <RAM_B> remains a black box.
 
 Elaborating module <Multi_8CH32>.
-WARNING:HDLCompiler:1499 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\Multi_8CH32_IO.v" Line 21: Empty module <Multi_8CH32> remains a black box.
+
+Elaborating module <MUX8T1_32>.
+
+Elaborating module <MUX8T1_8>.
+WARNING:HDLCompiler:189 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\Multi_8CH32.v" Line 57: Size mismatch in connection of port <I3>. Formal port size is 8-bit while actual signal size is 9-bit.
 
 Elaborating module <SSeg7_Dev>.
-WARNING:HDLCompiler:1499 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\SSeg7_Dev_IO.v" Line 21: Empty module <SSeg7_Dev> remains a black box.
+WARNING:HDLCompiler:1499 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\SSeg7_Dev_IO.v" Line 21: Empty module <SSeg7_Dev> remains a black box.
 
 Elaborating module <SPIO>.
-WARNING:HDLCompiler:1499 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\SPIO_IO.v" Line 21: Empty module <SPIO> remains a black box.
+WARNING:HDLCompiler:1499 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\SPIO_IO.v" Line 21: Empty module <SPIO> remains a black box.
 
 Elaborating module <clk_div>.
-WARNING:HDLCompiler:1127 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" Line 152: Assignment to Clk_CPU ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" Line 152: Assignment to Clk_CPU ignored, since the identifier is never used
 
 Elaborating module <SAnti_jitter>.
-WARNING:HDLCompiler:1499 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\SAnti_jitter_IO.v" Line 21: Empty module <SAnti_jitter> remains a black box.
-WARNING:HDLCompiler:1127 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" Line 163: Assignment to Pulse ignored, since the identifier is never used
+WARNING:HDLCompiler:1499 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\SAnti_jitter_IO.v" Line 21: Empty module <SAnti_jitter> remains a black box.
+WARNING:HDLCompiler:1127 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" Line 163: Assignment to Pulse ignored, since the identifier is never used
 
 Elaborating module <Seg7_Dev>.
-WARNING:HDLCompiler:1499 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\Seg7_Dev_IO.v" Line 21: Empty module <Seg7_Dev> remains a black box.
+WARNING:HDLCompiler:1499 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\Seg7_Dev_IO.v" Line 21: Empty module <Seg7_Dev> remains a black box.
 
 Elaborating module <PIO>.
-WARNING:HDLCompiler:1499 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\PIO_IO.v" Line 21: Empty module <PIO> remains a black box.
+WARNING:HDLCompiler:1499 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\PIO_IO.v" Line 21: Empty module <PIO> remains a black box.
 
 Elaborating module <GND>.
 
@@ -181,22 +189,47 @@ Elaborating module <INV>.
 =========================================================================
 
 Synthesizing Unit <Frame>.
-    Related source file is "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf".
-INFO:Xst:3210 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" line 136: Output port <counter_set> of the instance <U7> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" line 136: Output port <LED_out> of the instance <U7> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" line 136: Output port <GPIOf0> of the instance <U7> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" line 148: Output port <Clk_CPU> of the instance <U8> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" line 153: Output port <pulse_out> of the instance <U9> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" line 174: Output port <counter_set> of the instance <U71> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" line 174: Output port <GPIOf0> of the instance <U71> is unconnected or connected to loadless signal.
+    Related source file is "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf".
+INFO:Xst:3210 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" line 136: Output port <counter_set> of the instance <U7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" line 136: Output port <LED_out> of the instance <U7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" line 136: Output port <GPIOf0> of the instance <U7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" line 148: Output port <Clk_CPU> of the instance <U8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" line 153: Output port <pulse_out> of the instance <U9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" line 174: Output port <counter_set> of the instance <U71> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\Frame.vf" line 174: Output port <GPIOf0> of the instance <U71> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <Frame> synthesized.
 
+Synthesizing Unit <Multi_8CH32>.
+    Related source file is "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\Multi_8CH32.v".
+WARNING:Xst:647 - Input <LES<31:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8-bit register for signal <cpu_blink>.
+    Found 8-bit register for signal <cpu_point>.
+    Found 32-bit register for signal <disp_data>.
+    Summary:
+	inferred  48 D-type flip-flop(s).
+Unit <Multi_8CH32> synthesized.
+
+Synthesizing Unit <MUX8T1_32>.
+    Related source file is "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\MUX8T1_32.v".
+    Found 32-bit 8-to-1 multiplexer for signal <o> created at line 34.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX8T1_32> synthesized.
+
+Synthesizing Unit <MUX8T1_8>.
+    Related source file is "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\MUX8T1_8.v".
+    Found 8-bit 8-to-1 multiplexer for signal <o> created at line 34.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX8T1_8> synthesized.
+
 Synthesizing Unit <clk_div>.
-    Related source file is "C:\Users\poiii\Repo\Hardware-Series-Class\Computer-Organization\Exp01\clk_div.v".
+    Related source file is "C:\Users\poi\Desktop\Computer_Organization\Hardware-Series-Class\Computer-Organization\Exp01\clk_div.v".
     Found 32-bit register for signal <clkdiv>.
-    Found 32-bit adder for signal <clkdiv[31]_GND_8_o_add_0_OUT> created at line 32.
+    Found 32-bit adder for signal <clkdiv[31]_GND_10_o_add_0_OUT> created at line 30.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  32 D-type flip-flop(s).
@@ -209,10 +242,13 @@ HDL Synthesis Report
 Macro Statistics
 # Adders/Subtractors                                   : 1
  32-bit adder                                          : 1
-# Registers                                            : 1
- 32-bit register                                       : 1
-# Multiplexers                                         : 1
+# Registers                                            : 4
+ 32-bit register                                       : 2
+ 8-bit register                                        : 2
+# Multiplexers                                         : 4
  1-bit 2-to-1 multiplexer                              : 1
+ 32-bit 8-to-1 multiplexer                             : 1
+ 8-bit 8-to-1 multiplexer                              : 2
 
 =========================================================================
 
@@ -222,7 +258,6 @@ Macro Statistics
 
 Reading core <SAnti_jitter.ngc>.
 Reading core <SEnter_2_32.ngc>.
-Reading core <Multi_8CH32.ngc>.
 Reading core <SSeg7_Dev.ngc>.
 Reading core <SPIO.ngc>.
 Reading core <PIO.ngc>.
@@ -231,7 +266,6 @@ Reading core <ipcore_dir/RAM_B.ngc>.
 Reading core <ipcore_dir/ROM_D.ngc>.
 Loading core <SAnti_jitter> for timing and area information for instance <U9>.
 Loading core <SEnter_2_32> for timing and area information for instance <M4>.
-Loading core <Multi_8CH32> for timing and area information for instance <U5>.
 Loading core <SSeg7_Dev> for timing and area information for instance <U6>.
 Loading core <SPIO> for timing and area information for instance <U7>.
 Loading core <PIO> for timing and area information for instance <U71>.
@@ -249,6 +283,11 @@ Advanced HDL Synthesis Report
 Macro Statistics
 # Counters                                             : 1
  32-bit up counter                                     : 1
+# Registers                                            : 48
+ Flip-Flops                                            : 48
+# Multiplexers                                         : 3
+ 32-bit 8-to-1 multiplexer                             : 1
+ 8-bit 8-to-1 multiplexer                              : 2
 
 =========================================================================
 
@@ -257,6 +296,8 @@ Macro Statistics
 =========================================================================
 
 Optimizing unit <Frame> ...
+
+Optimizing unit <Multi_8CH32> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
@@ -268,8 +309,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 32
- Flip-Flops                                            : 32
+# Registers                                            : 80
+ Flip-Flops                                            : 80
 
 =========================================================================
 
@@ -292,21 +333,21 @@ Top Level Output File Name         : Frame.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1449
+# BELS                             : 1458
 #      AND2                        : 10
 #      AND3                        : 99
 #      AND4                        : 81
 #      BUF                         : 1
 #      GND                         : 3
 #      INV                         : 58
-#      LUT1                        : 96
+#      LUT1                        : 97
 #      LUT2                        : 40
-#      LUT3                        : 146
-#      LUT4                        : 83
-#      LUT5                        : 92
-#      LUT6                        : 329
+#      LUT3                        : 154
+#      LUT4                        : 147
+#      LUT5                        : 132
+#      LUT6                        : 273
 #      MUXCY                       : 121
-#      MUXF7                       : 58
+#      MUXF7                       : 10
 #      OR2                         : 63
 #      OR3                         : 27
 #      OR4                         : 36
@@ -338,14 +379,14 @@ Selected Device : 7k160tffg676-2l
 
 Slice Logic Utilization: 
  Number of Slice Registers:             443  out of  202800     0%  
- Number of Slice LUTs:                  844  out of  101400     0%  
-    Number used as Logic:               844  out of  101400     0%  
+ Number of Slice LUTs:                  901  out of  101400     0%  
+    Number used as Logic:               901  out of  101400     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    988
-   Number with an unused Flip Flop:     545  out of    988    55%  
-   Number with an unused LUT:           144  out of    988    14%  
-   Number of fully used LUT-FF pairs:   299  out of    988    30%  
+ Number of LUT Flip Flop pairs used:   1037
+   Number with an unused Flip Flop:     594  out of   1037    57%  
+   Number with an unused LUT:           136  out of   1037    13%  
+   Number of fully used LUT-FF pairs:   307  out of   1037    29%  
    Number of unique control sets:        23
 
 IO Utilization: 
@@ -399,9 +440,9 @@ Timing Summary:
 ---------------
 Speed Grade: -2
 
-   Minimum period: 5.525ns (Maximum Frequency: 180.986MHz)
+   Minimum period: 5.175ns (Maximum Frequency: 193.240MHz)
    Minimum input arrival time before clock: 2.109ns
-   Maximum output required time after clock: 6.156ns
+   Maximum output required time after clock: 5.805ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -410,10 +451,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk_100mhz'
-  Clock period: 5.525ns (frequency: 180.986MHz)
-  Total number of paths / destination ports: 20917 / 563
+  Clock period: 5.175ns (frequency: 193.240MHz)
+  Total number of paths / destination ports: 22185 / 563
 -------------------------------------------------------------------------
-Delay:               5.525ns (Levels of Logic = 13)
+Delay:               5.175ns (Levels of Logic = 11)
   Source:            U8/clkdiv_24 (FF)
   Destination:       U6/M2/buffer_60 (FF)
   Source Clock:      clk_100mhz rising
@@ -423,15 +464,12 @@ Delay:               5.525ns (Levels of Logic = 13)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q             37   0.236   0.734  U8/clkdiv_24 (U8/clkdiv_24)
+     FDC:C->Q             35   0.236   0.733  U8/clkdiv_24 (U8/clkdiv_24)
      begin scope: 'U2:a<0>'
      LUT5:I0->O            1   0.043   0.350  spo<4>_SW0 (N0)
-     LUT6:I5->O            4   0.043   0.539  spo<4> (spo<0>)
+     LUT6:I5->O            4   0.043   0.367  spo<4> (spo<0>)
      end scope: 'U2:spo<0>'
-     begin scope: 'U5:data6<0>'
-     LUT6:I2->O            1   0.043   0.000  MUX1_DispData/Mmux_o_3 (MUX1_DispData/Mmux_o_3)
-     MUXF7:I1->O          16   0.178   0.422  MUX1_DispData/Mmux_o_2_f7 (Disp_num<0>)
-     end scope: 'U5:Disp_num<0>'
+     LUT5:I4->O           16   0.043   0.422  U5/Mux1_DispData/Mmux_o13 (Disp_num<0>)
      begin scope: 'U6:Hexs<0>'
      INV:I->O              6   0.054   0.641  SM1/HTS7/MSEG/XLXI_4 (SM1/HTS7/MSEG/XLXN_24)
      AND4:I0->O            1   0.043   0.613  SM1/HTS7/MSEG/XLXI_28 (SM1/HTS7/MSEG/XLXN_141)
@@ -441,8 +479,8 @@ Delay:               5.525ns (Levels of Logic = 13)
      LUT3:I1->O            1   0.043   0.000  M2/buffer_60_rstpot (M2/buffer_60_rstpot)
      FD:D                     -0.000          M2/buffer_60
     ----------------------------------------
-    Total                      5.525ns (0.812ns logic, 4.713ns route)
-                                       (14.7% logic, 85.3% route)
+    Total                      5.175ns (0.634ns logic, 4.541ns route)
+                                       (12.3% logic, 87.7% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'U9/clk1'
@@ -548,9 +586,9 @@ Offset:              2.109ns (Levels of Logic = 6)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_100mhz'
-  Total number of paths / destination ports: 12714 / 28
+  Total number of paths / destination ports: 13918 / 28
 -------------------------------------------------------------------------
-Offset:              6.156ns (Levels of Logic = 15)
+Offset:              5.805ns (Levels of Logic = 13)
   Source:            U8/clkdiv_25 (FF)
   Destination:       SEGMENT<6> (PAD)
   Source Clock:      clk_100mhz rising
@@ -559,15 +597,12 @@ Offset:              6.156ns (Levels of Logic = 15)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q             47   0.236   0.736  U8/clkdiv_25 (U8/clkdiv_25)
+     FDC:C->Q             45   0.236   0.735  U8/clkdiv_25 (U8/clkdiv_25)
      begin scope: 'U2:a<1>'
      LUT6:I1->O            1   0.043   0.350  U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mram_spo_int4911_SW0 (N46)
-     LUT5:I4->O            2   0.043   0.527  U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mram_spo_int4911 (spo<24>)
+     LUT5:I4->O            2   0.043   0.355  U0/xst_options.dist_mem_inst/gen_rom.rom_inst/Mram_spo_int4911 (spo<24>)
      end scope: 'U2:spo<24>'
-     begin scope: 'U5:data6<24>'
-     LUT6:I2->O            1   0.043   0.000  MUX1_DispData/Mmux_o_316 (MUX1_DispData/Mmux_o_316)
-     MUXF7:I1->O          16   0.178   0.605  MUX1_DispData/Mmux_o_2_f7_15 (Disp_num<24>)
-     end scope: 'U5:Disp_num<24>'
+     LUT5:I4->O           16   0.043   0.605  U5/Mux1_DispData/Mmux_o173 (Disp_num<24>)
      begin scope: 'U61:Hexs<24>'
      LUT6:I2->O            1   0.043   0.000  M2/Mmux_Hexo_3 (M2/Mmux_Hexo_3)
      MUXF7:I1->O          12   0.178   0.400  M2/Mmux_Hexo_2_f7 (Hex<0>)
@@ -579,8 +614,8 @@ Offset:              6.156ns (Levels of Logic = 15)
      end scope: 'U61:SEGMENT<3>'
      OBUF:I->O                 0.000          SEGMENT_3_OBUF (SEGMENT<3>)
     ----------------------------------------
-    Total                      6.156ns (0.990ns logic, 5.166ns route)
-                                       (16.1% logic, 83.9% route)
+    Total                      5.805ns (0.812ns logic, 4.993ns route)
+                                       (14.0% logic, 86.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'U9/clk1'
@@ -604,9 +639,9 @@ Offset:              0.658ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'M4/push'
-  Total number of paths / destination ports: 252 / 7
+  Total number of paths / destination ports: 168 / 7
 -------------------------------------------------------------------------
-Offset:              4.563ns (Levels of Logic = 12)
+Offset:              4.273ns (Levels of Logic = 10)
   Source:            M4/state_0 (FF)
   Destination:       SEGMENT<6> (PAD)
   Source Clock:      M4/push rising
@@ -615,24 +650,21 @@ Offset:              4.563ns (Levels of Logic = 12)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q             19   0.236   0.704  state_0 (state<0>)
-     LUT6:I1->O            3   0.043   0.534  Mmux_blink31 (blink<2>)
-     end scope: 'M4:blink<2>'
-     begin scope: 'U5:LES<50>'
-     LUT6:I2->O            1   0.043   0.000  MUX2_Blink/Mmux_o_32 (MUX2_Blink/Mmux_o_32)
-     MUXF7:I1->O           2   0.178   0.527  MUX2_Blink/Mmux_o_2_f7_1 (LE_out<2>)
-     end scope: 'U5:LE_out<2>'
-     begin scope: 'U61:LES<2>'
-     LUT6:I2->O            1   0.043   0.000  M2/Mmux_LE_4 (M2/Mmux_LE_4)
-     MUXF7:I0->O           1   0.176   0.613  M2/Mmux_LE_2_f7 (XLXN_382)
+     FDE:C->Q             19   0.236   0.714  state_0 (state<0>)
+     LUT6:I0->O            2   0.043   0.410  Mmux_blink71 (blink<6>)
+     end scope: 'M4:blink<6>'
+     LUT5:I3->O            2   0.043   0.527  U5/Mux2_Blink/Mmux_o71 (LE_out<6>)
+     begin scope: 'U61:LES<6>'
+     LUT6:I2->O            1   0.043   0.000  M2/Mmux_LE_3 (M2/Mmux_LE_3)
+     MUXF7:I1->O           1   0.178   0.613  M2/Mmux_LE_2_f7 (XLXN_382)
      AND2:I0->O            7   0.043   0.647  XLXI_44 (XLXN_385)
      OR2:I0->O             1   0.043   0.350  M1/XLXI_47 (SEG_TXT<0>)
      LUT3:I2->O            1   0.043   0.339  MUXHM/Mmux_o1 (SEGMENT<0>)
      end scope: 'U61:SEGMENT<0>'
      OBUF:I->O                 0.000          SEGMENT_0_OBUF (SEGMENT<0>)
     ----------------------------------------
-    Total                      4.563ns (0.848ns logic, 3.715ns route)
-                                       (18.6% logic, 81.4% route)
+    Total                      4.273ns (0.672ns logic, 3.601ns route)
+                                       (15.7% logic, 84.3% route)
 
 =========================================================================
 
@@ -646,7 +678,7 @@ Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 M4/push        |    1.069|         |         |         |
 U9/clk1        |    0.818|         |         |         |
-clk_100mhz     |    1.340|         |         |         |
+clk_100mhz     |    1.337|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock U9/clk1
@@ -663,22 +695,22 @@ Clock to Setup on destination clock clk_100mhz
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-M4/push        |    3.778|         |         |         |
+M4/push        |    3.486|         |         |         |
 U9/clk1        |    1.100|         |         |         |
-clk_100mhz     |    5.525|    0.633|    2.305|         |
+clk_100mhz     |    5.175|    0.633|    2.305|         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 9.85 secs
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.77 secs
  
 --> 
 
-Total memory usage is 415248 kilobytes
+Total memory usage is 415772 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   11 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
 Number of infos    :    8 (   0 filtered)
 
