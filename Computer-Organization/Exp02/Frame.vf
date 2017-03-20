@@ -7,11 +7,11 @@
 // \   \   \/     Version : 14.7
 //  \   \         Application : sch2hdl
 //  /   /         Filename : Frame.vf
-// /___/   /\     Timestamp : 03/17/2017 18:19:34
+// /___/   /\     Timestamp : 03/20/2017 20:29:30
 // \   \  /  \ 
 //  \___\/\___\ 
 //
-//Command: sch2hdl -sympath C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp01/ipcore_dir -intstyle ise -family kintex7 -verilog C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp01/Frame.vf -w C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp01/Frame.sch
+//Command: sch2hdl -sympath C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp02/ipcore_dir -intstyle ise -family kintex7 -verilog C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp02/Frame.vf -w C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp02/Frame.sch
 //Design Name: Frame
 //Device: kintex7
 //Purpose:

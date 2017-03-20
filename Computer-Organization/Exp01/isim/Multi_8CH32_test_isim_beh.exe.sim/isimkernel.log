@@ -2,27 +2,9 @@ Command line:
    Multi_8CH32_test_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  12028
+     -socket  7535
 
-Tue Mar 14 11:51:25 2017
+Sat Mar 18 00:18:46 2017
 
 
- Elaboration Time: 0.09375 sec
-
- Current Memory Usage: 854.155 Meg
-
- Total Signals          : 60
- Total Nets             : 499
- Total Signal Drivers   : 25
- Total Blocks           : 6
- Total Primitive Blocks : 4
- Total Processes        : 31
- Total Traceable Variables  : 39
- Total Scalar Nets and Variables : 1097
-
- Total Simulation Time: 0.296875 sec
-
- Current Memory Usage: 854.155 Meg
-
-Tue Mar 14 11:58:14 2017
-
+ Elaboration Time: 0.0625 sec
