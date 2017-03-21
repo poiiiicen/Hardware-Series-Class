@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date:    16:58:11 07/01/2012 
+// Create Date:    22:06:51 12/28/2015 
 // Design Name: 
-// Module Name:    Device_led 
+// Module Name:    MUX2T1_8 
 // Project Name: 
 // Target Devices: 
 // Tool versions: 
@@ -18,13 +18,12 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module 		  PIO(input wire clk,
-						input wire rst,
-						input wire EN,
-						input wire[31:0] PData_in,
-						output reg[1:0] counter_set,
-						output[7:0] LED_out,
-						output reg[21:0]GPIOf0						 
-						);
+module 	MUX2T1_8(input[7:0]I0,
+						input[7:0]I1,
+						input s,
+						output[7:0]o
+						 );
+
+	assign o = s ? I1 : I0;
 
 endmodule

@@ -39,13 +39,13 @@ wire nD2 = ~D2;
 wire nD1 = ~D1;
 wire nD0 = ~D0;
 
-assign a = (nD3 & nD2 & nD1 & D0) | (nD3 & D2 & nD1 & nD0) | (D3 & nD2 & D1 & D0) | (D3 & D2 & nD1 & D0) | (~LE);
-assign b = (nD3 & D2 & nD1 & D0) | (nD3 & D2 & D1 & nD0) | (D3 & nD2 & D1 & D0) | (D3 & D2 & nD1 & nD0) | (D3 & D2 & D1 & nD0) | (D3 & D2 & D1 & D0) | (~LE);
-assign c = (nD3 & nD2 & D2 & nD0) | (D3 & D2 & nD1 & nD0) | (D3 & D2 & D1 & nD0) | (D3 & D2 & D1 & D0) | (~LE);
-assign d = (nD3 & nD2 & nD1 & D0) | (nD3 & D2 & nD1 & nD0) | (nD3 & D2 & D1 & D0) | (D3 & nD2 & D1 & nD0) | (D3 & D2 & D1 & D0) | (~LE);
-assign e = (nD3 & nD2 & nD1 & D0) | (nD3 & nD2 & D1 & D0) | (nD3 & D2 & nD1 & nD0) | (nD3 & D2 & nD1 & D0) | (nD3 & D2 & D1 & D0) | (D3 & nD2 & nD1 & D0) | (~LE);
-assign f = (nD3 & nD2 & nD1 & D0) | (nD3 & nD2 & D1 & nD0) | (nD3 & nD2 & D1 & D0) | (nD3 & D2 & D1 & D0) | (D3 & D2 & nD1 & D0) | (~LE);
-assign g = (nD3 & nD2 & nD1 & nD0) | (nD3 & nD2 & nD1 & D0) | (nD3 & D2 & D1 & D0) | (D3 & D2 & nD1 & nD0) | (~LE);
-assign p = point | (~LE);
+assign a = (nD3 & nD2 & nD1 & D0) | (nD3 & D2 & nD1 & nD0) | (D3 & nD2 & D1 & D0) | (D3 & D2 & nD1 & D0) | (LE);
+assign b = (nD3 & D2 & nD1 & D0) | (nD3 & D2 & D1 & nD0) | (D3 & nD2 & D1 & D0) | (D3 & D2 & nD1 & nD0) | (D3 & D2 & D1 & nD0) | (D3 & D2 & D1 & D0) | (LE);
+assign c = (nD3 & nD2 & D2 & nD0) | (D3 & D2 & nD1 & nD0) | (D3 & D2 & D1 & nD0) | (D3 & D2 & D1 & D0) | (LE);
+assign d = (nD3 & nD2 & nD1 & D0) | (nD3 & D2 & nD1 & nD0) | (nD3 & D2 & D1 & D0) | (D3 & nD2 & D1 & nD0) | (D3 & D2 & D1 & D0) | (LE);
+assign e = (nD3 & nD2 & nD1 & D0) | (nD3 & nD2 & D1 & D0) | (nD3 & D2 & nD1 & nD0) | (nD3 & D2 & nD1 & D0) | (nD3 & D2 & D1 & D0) | (D3 & nD2 & nD1 & D0) | (LE);
+assign f = (nD3 & nD2 & nD1 & D0) | (nD3 & nD2 & D1 & nD0) | (nD3 & nD2 & D1 & D0) | (nD3 & D2 & D1 & D0) | (D3 & D2 & nD1 & D0) | (LE);
+assign g = (nD3 & nD2 & nD1 & nD0) | (nD3 & nD2 & nD1 & D0) | (nD3 & D2 & D1 & D0) | (D3 & D2 & nD1 & nD0) | (LE);
+assign p = ~point;
 
 endmodule

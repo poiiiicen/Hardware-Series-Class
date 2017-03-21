@@ -31,7 +31,9 @@ module SSeg7_Dev(input clk,
 					  output SEG_PEN,
 					  output seg_clrn
     );
-
+wire[63:0] a;
+wire[63:0] b;
+wire[63:0] SEGMENT;
 HexTo8SEG SM1(.flash(flash),
 				  .Hexs(Hexs),
 				  .points(point),
