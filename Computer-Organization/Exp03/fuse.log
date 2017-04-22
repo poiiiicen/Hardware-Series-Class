@@ -1,0 +1,27 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp03/Seg7_Dev_Seg7_Dev_sch_tb_isim_beh.exe -prj C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp03/Seg7_Dev_Seg7_Dev_sch_tb_beh.prj work.Seg7_Dev_Seg7_Dev_sch_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp03/Seg_map.v" into library work
+Analyzing Verilog file "C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp03/Scansync.v" into library work
+Analyzing Verilog file "C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp03/MUX2T1_8.v" into library work
+Analyzing Verilog file "C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp03/MC14495_ZJU.v" into library work
+Analyzing Verilog file "C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp03/Seg7_Dev.vf" into library work
+Analyzing Verilog file "C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp03/Seg7_Dev_test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module ScanSync
+Compiling module MC14495_ZJU
+Compiling module Seg_map
+Compiling module MUX2T1_8
+Compiling module AND2
+Compiling module Seg7_Dev
+Compiling module Seg7_Dev_Seg7_Dev_sch_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 8 Verilog Units
+Built simulation executable C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp03/Seg7_Dev_Seg7_Dev_sch_tb_isim_beh.exe
+Fuse Memory Usage: 28888 KB
+Fuse CPU Usage: 421 ms
