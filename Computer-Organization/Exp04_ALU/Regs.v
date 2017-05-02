@@ -32,11 +32,11 @@ module Regs(input clk,
 reg[31:0] register;
 assign rdata_A = (R_addr_A == 0) ? 0 : register[R_addr_A];
 assign rdata_B = (R_addr_B == 0) ? 0 : register[R_addr_B];
-
+integer i;
 always @(posedge clk or posedge rst)
 begin
 	if (rst) begin
-		for (int i = 1; i < 32; i = i + 1) register[i] <= 0;
+		for (i = 1; i < 32; i = i + 1) register[i] <= 0;
 	end
 	else if (Wt_addr != 0 && L_S == 1) register[Wt_addr] <= Wt_data;
 end
