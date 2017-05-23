@@ -7,11 +7,11 @@
 // \   \   \/     Version : 14.7
 //  \   \         Application : sch2hdl
 //  /   /         Filename : ALU.vf
-// /___/   /\     Timestamp : 05/02/2017 15:43:04
+// /___/   /\     Timestamp : 05/16/2017 15:29:16
 // \   \  /  \ 
 //  \___\/\___\ 
 //
-//Command: sch2hdl -intstyle ise -family kintex7 -verilog C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp05/ALU.vf -w C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp05/ALU.sch
+//Command: sch2hdl -sympath C:/Users/poi/Desktop/Computer_Organization/test/temp5/ipcore_dir -intstyle ise -family kintex7 -verilog C:/Users/poi/Desktop/Computer_Organization/test/temp5/ALU.vf -w C:/Users/poi/Desktop/Computer_Organization/test/temp5/ALU.sch
 //Design Name: ALU
 //Device: kintex7
 //Purpose:
@@ -36,53 +36,53 @@ module ALU(A,
    
    wire N0;
    wire [32:0] S;
-   wire [31:0] XLXN_16;
-   wire [31:0] XLXN_19;
+   wire [31:0] XLXN_11;
+   wire [31:0] XLXN_12;
+   wire [31:0] XLXN_22;
    wire [31:0] XLXN_23;
-   wire [31:0] XLXN_24;
-   wire [31:0] XLXN_31;
-   wire [31:0] XLXN_32;
-   wire [31:0] XLXN_33;
+   wire [31:0] XLXN_47;
+   wire [31:0] XLXN_51;
+   wire [31:0] XLXN_55;
    wire [31:0] res_DUMMY;
    
    assign res[31:0] = res_DUMMY[31:0];
-   and32  XLXI_1 (.A(A[31:0]), 
-                 .B(B[31:0]), 
-                 .res(XLXN_23[31:0]));
-   or32  XLXI_2 (.A(A[31:0]), 
-                .B(B[31:0]), 
-                .res(XLXN_24[31:0]));
-   ADC32  XLXI_3 (.A(A[31:0]), 
-                 .B(XLXN_16[31:0]), 
+   ADC32  ADC_32 (.A(A[31:0]), 
+                 .B(XLXN_51[31:0]), 
                  .C0(ALU_operation[2]), 
                  .S(S[32:0]));
-   xor32  XLXI_4 (.A(A[31:0]), 
+   and32  ALU_U1 (.A(A[31:0]), 
                  .B(B[31:0]), 
-                 .res(XLXN_31[31:0]));
-   nor32  XLXI_5 (.A(A[31:0]), 
+                 .res(XLXN_22[31:0]));
+   or32  ALU_U2 (.A(A[31:0]), 
+                .B(B[31:0]), 
+                .res(XLXN_23[31:0]));
+   xor32  ALU_U3 (.A(A[31:0]), 
                  .B(B[31:0]), 
-                 .res(XLXN_32[31:0]));
-   srl32  XLXI_6 (.A(A[31:0]), 
+                 .res(XLXN_12[31:0]));
+   nor32  ALU_U4 (.A(A[31:0]), 
                  .B(B[31:0]), 
-                 .res(XLXN_33[31:0]));
-   xor32  XLXI_7 (.A(XLXN_19[31:0]), 
+                 .res(XLXN_11[31:0]));
+   srl32  ALU_U5 (.A(A[31:0]), 
                  .B(B[31:0]), 
-                 .res(XLXN_16[31:0]));
-   MUX8T1_32  XLXI_8 (.I0(XLXN_23[31:0]), 
-                     .I1(XLXN_24[31:0]), 
+                 .res(XLXN_47[31:0]));
+   xor32  ALU_U7 (.A(XLXN_55[31:0]), 
+                 .B(B[31:0]), 
+                 .res(XLXN_51[31:0]));
+   or_bit_32  ALU_Zero (.A(res_DUMMY[31:0]), 
+                       .o(zero));
+   MUX8T1_32  MUXALU (.I0(XLXN_22[31:0]), 
+                     .I1(XLXN_23[31:0]), 
                      .I2(S[31:0]), 
-                     .I3(XLXN_31[31:0]), 
-                     .I4(XLXN_32[31:0]), 
-                     .I5(XLXN_33[31:0]), 
+                     .I3(XLXN_12[31:0]), 
+                     .I4(XLXN_11[31:0]), 
+                     .I5(XLXN_47[31:0]), 
                      .I6(S[31:0]), 
                      .I7({N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, 
          N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, 
          N0, S[32]}), 
                      .s(ALU_operation[2:0]), 
                      .o(res_DUMMY[31:0]));
-   or_bit_32  XLXI_9 (.A(res_DUMMY[31:0]), 
-                     .o(zero));
-   SignalExt_32  XLXI_13 (.S(ALU_operation[2]), 
-                         .So(XLXN_19[31:0]));
-   GND  XLXI_14 (.G(N0));
+   SignalExt_32  SIignal1_32 (.S(ALU_operation[2]), 
+                             .So(XLXN_55[31:0]));
+   GND  XLXI_13 (.G(N0));
 endmodule

@@ -57,14 +57,18 @@ module Data_path_Data_path_sch_tb();
 		fork
 			forever #50 clk = ~clk;
 			begin
-				rst = 1;
+				rst = 1'b1;
 				#100;
 				rst = 0;
-				Jump = 1;
-				inst_field = 25'h113B7E0;
+				Jump = 1'b1;
+				inst_field = 26'h113B7E0;
 				#100;
 				Jump = 0;
-				
+				RegWrite = 1'b1;
+				RegDst = 0;
+				ALUSrc_B = 1'b1;
+				ALU_Control = 3'b010;
+				inst_field = 25'h1084000;
 			end
 		join
    end

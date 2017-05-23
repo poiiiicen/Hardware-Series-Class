@@ -7,11 +7,11 @@
 // \   \   \/     Version : 14.7
 //  \   \         Application : sch2hdl
 //  /   /         Filename : Data_path.vf
-// /___/   /\     Timestamp : 05/02/2017 15:46:10
+// /___/   /\     Timestamp : 05/22/2017 21:45:12
 // \   \  /  \ 
 //  \___\/\___\ 
 //
-//Command: sch2hdl -intstyle ise -family kintex7 -verilog C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp05/Data_path.vf -w C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp05/Data_path.sch
+//Command: sch2hdl -sympath C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp05/ipcore_dir -intstyle ise -family kintex7 -verilog C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp05/Data_path.vf -w C:/Users/poi/Desktop/Computer_Organization/Hardware-Series-Class/Computer-Organization/Exp05/Data_path.sch
 //Design Name: Data_path
 //Device: kintex7
 //Purpose:
@@ -120,8 +120,8 @@ module Data_path(ALUSrc_B,
    
    wire [31:0] Imm_32;
    wire N0;
+   wire [31:0] PC_4;
    wire V5;
-   wire [31:0] XLXN_8;
    wire [31:0] XLXN_10;
    wire [31:0] XLXN_12;
    wire [31:0] XLXN_15;
@@ -162,16 +162,16 @@ module Data_path(ALUSrc_B,
                   .b({N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, 
          N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, V5, N0, 
          N0}), 
-                  .c(XLXN_8[31:0]));
-   add_32  XLXI_3 (.a(XLXN_8[31:0]), 
+                  .c(PC_4[31:0]));
+   add_32  XLXI_3 (.a(PC_4[31:0]), 
                   .b({Imm_32[29:0], N0, N0}), 
                   .c(XLXN_10[31:0]));
-   MUX2T1_32  XLXI_4 (.I0(XLXN_8[31:0]), 
+   MUX2T1_32  XLXI_4 (.I0(PC_4[31:0]), 
                      .I1(XLXN_10[31:0]), 
                      .s(XLXN_18), 
                      .o(XLXN_12[31:0]));
    MUX2T1_32  XLXI_5 (.I0(XLXN_12[31:0]), 
-                     .I1({PC_out_DUMMY[31:28], inst_field[25:0], N0, N0}), 
+                     .I1({PC_4[31:28], inst_field[25:0], N0, N0}), 
                      .s(Jump), 
                      .o(XLXN_15[31:0]));
    AND2  XLXI_6 (.I0(XLXN_24), 

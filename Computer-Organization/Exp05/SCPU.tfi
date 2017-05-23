@@ -1,0 +1,19 @@
+// Verilog instantiation template created from schematic C:\Users\poi\Desktop\Computer_Organization\test\temp5\SCPU.sch - Tue May 16 14:33:00 2017
+//
+// Notes: 
+// To use this template to instantiate this component,cut-and-paste and then edit
+//
+// Instantiate the UUT
+   SCPU UUT (
+		.mem_w(    ), 
+		.CPU_MIO(    ), 
+		.clk(    ), 
+		.reset(    ), 
+		.Data_in(    ), 
+		.MIO_ready(    ), 
+		.INT(    ), 
+		.PC_out(    ), 
+		.Addr_out(    ), 
+		.Data_out(    ), 
+		.inst_in(    )
+   );
