@@ -42,7 +42,7 @@ module Data_path_Data_path_sch_tb();
 		.ALU_out(ALU_out)
    );
 // Initialize Inputs
-   initial begin
+	initial begin
 		Jump = 0;
 		Branch = 0;
 		ALU_Control = 0;
@@ -67,8 +67,30 @@ module Data_path_Data_path_sch_tb();
 				RegWrite = 1'b1;
 				RegDst = 0;
 				ALUSrc_B = 1'b1;
+				ALU_Control = 3'b001;
+				inst_field = 26'h84000;
+				#100;
+				ALUSrc_B = 1'b1;
 				ALU_Control = 3'b010;
-				inst_field = 25'h1084000;
+				inst_field = 26'h1090800;
+				#100;
+				RegDst = 1;
+				ALUSrc_B = 1'b0;
+				ALU_Control = 3'b110;
+				inst_field = 26'h1285022;
+				#100;
+				RegDst = 0;
+				ALUSrc_B = 1'b1;
+				MemtoReg = 1;
+				Data_in = 32'h55aaaa55;
+				#100;
+				Branch = 1;
+				RegWrite = 0;
+				MemtoReg = 0;
+				RegDst = 0;
+				ALUSrc_B = 0;
+				ALU_Control = 3'b111;
+				inst_field = 26'h1088000;
 			end
 		join
    end

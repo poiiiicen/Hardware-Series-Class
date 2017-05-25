@@ -90,7 +90,7 @@ module SCPU_ctrl_more(
 			6'b100011: begin RegDst = 0; ALUSrc_B = 1; DatatoReg = DTR_DATAIN; RegWrite = 1; ALU_Control = ALU_ADD; end	// lw
 			6'b101011: begin ALUSrc_B = 1; ALU_Control = ALU_ADD; mem_w = 1; end	// sw
 			6'b000100: begin ALU_Control = ALU_SUB; Branch = zero ? BR_OFFSET : BR_PC4; end	// beq
-			6'b000100: begin ALU_Control = ALU_SUB; Branch = zero ? BR_PC4 : BR_OFFSET; end	// bne
+			6'b000101: begin ALU_Control = ALU_SUB; Branch = zero ? BR_PC4 : BR_OFFSET; end	// bne
 			6'b000010: begin Branch = BR_JUMP; end	// j
 			6'b000011: begin RegDst = 0; DatatoReg = DTR_PC4; RegWrite = 1; Branch = BR_JUMP; Jal = 1; end	// jal
 			6'h24: begin ALU_Control = ALU_SLT; RegDst = 0; ALUSrc_B = 1; RegWrite = 1; end	// slti, here 6'b100100 according to Sqs, but it should be 6'b001010 according to MIPS 32.

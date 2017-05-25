@@ -4,6 +4,7 @@
 *.bld
 *.cmd_log
 *.drc
+*.jhd
 *.ll
 *.lso
 *.msd
@@ -25,6 +26,7 @@
 *.twx
 *.unroutes
 *.ut
+*.vf
 *.xpi
 *.xst
 *_bitgen.xwbt
@@ -41,6 +43,8 @@
 *_summary.xml
 *_usage.xml
 *_xst.xrpt
+Frame.ngc
+Top_SCPU_IOBUS_App.ngc
 
 # iMPACT generated files
 _impactbatch.log
