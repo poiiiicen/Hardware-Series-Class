@@ -1,0 +1,12 @@
+ISim log file
+Running: Z:\OExp12-MCPU\MCPU_sim_isim_map.exe -intstyle ise -gui -tclbatch isim.cmd -wdb Z:/OExp12-MCPU/MCPU_sim_isim_map.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "//10.110.13.76/Organization/OExp12-MCPU/MCPU_sim.v" Line 31.  For instance MCPU_sim/uut/, width 32 of formal port Data_in is not equal to width 9 of actual variable Data_in. 
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+INFO: SDF backannotation was successful with SDF file netgen/map/mcpu_map.sdf, for root module /MCPU_sim/uut/.
+Finished circuit initialization process.

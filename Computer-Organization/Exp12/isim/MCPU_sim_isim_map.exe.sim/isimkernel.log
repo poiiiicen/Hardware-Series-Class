@@ -1,0 +1,28 @@
+Command line:
+   MCPU_sim_isim_map.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  27134
+
+Wed May 17 11:47:21 2017
+
+
+ Elaboration Time: 6.09375 sec
+
+ Current Memory Usage: 1128.38 Meg
+
+ Total Signals          : 86828
+ Total Nets             : 56889
+ Total Signal Drivers   : 58063
+ Total Blocks           : 10153
+ Total Primitive Blocks : 5371
+ Total Processes        : 74892
+ Total Traceable Variables  : 33702
+ Total Scalar Nets and Variables : 938155
+
+ Total Simulation Time: 11.3438 sec
+
+ Current Memory Usage: 1181.34 Meg
+
+Wed May 17 11:48:09 2017
+
