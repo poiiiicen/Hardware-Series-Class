@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "Z:/OExp12-MCPU/MCPU_sim_isim_map.exe" -prj "Z:/OExp12-MCPU/MCPU_sim_map.prj" "work.MCPU_sim" "work.glbl" 

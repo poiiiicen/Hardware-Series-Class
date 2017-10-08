@@ -1,2 +1,2 @@
 # Computer-Organization
-Some experiment projects in Computer-Organization Class.
+Some experiment projects in Computer Architecture Class.
