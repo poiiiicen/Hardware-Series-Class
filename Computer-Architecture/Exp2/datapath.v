@@ -100,9 +100,9 @@ module datapath (
 			case (pc_src_ctrl)
 				PC_JUMP: inst_addr <= {inst_addr_next[31:28], inst_data[25:0], 2'b00};
 				PC_JR: inst_addr <= data_rs;
-				PC_BEQ: inst_addr <= alu_out;//data_rs == data_rt ? alu_out : inst_addr_next;//alu_out ? inst_addr_next : inst_addr_next + {data_imm[29:0], 2'b00};
+				PC_BEQ: inst_addr <= rs_rt_equal ? alu_out : inst_addr_next;//data_rs == data_rt ? alu_out : inst_addr_next;//alu_out ? inst_addr_next : inst_addr_next + {data_imm[29:0], 2'b00};
 				//???
-				PC_BNE: inst_addr <= (data_rs != data_rt) ? alu_out : inst_addr_next;//alu_out ? inst_addr_next + {data_imm[29:0], 2'b00} : inst_addr_next;
+				PC_BNE: inst_addr <= rs_rt_equal ? inst_addr_next : alu_out;//alu_out ? inst_addr_next + {data_imm[29:0], 2'b00} : inst_addr_next;
 				default: inst_addr <= inst_addr_next;
 			endcase
 		end
@@ -175,7 +175,7 @@ module datapath (
 		regw_data = alu_out;
 		case (wb_data_src_ctrl)
 			WB_DATA_ALU: regw_data = regw_data;
-			WB_DATA_MEM: regw_data = mem_dout;
+			WB_DATA_MEM: regw_data = mem_din;
 		endcase
 	end
 	

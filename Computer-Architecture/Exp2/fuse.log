@@ -1,5 +1,5 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp2/sim_mips_isim_beh.exe -prj C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp2/sim_mips_beh.prj work.sim_mips work.glbl 
-ISim P.20131013 (signature 0x8ef4fb42)
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp2/sim_mips_isim_beh.exe -prj C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp2/sim_mips_beh.prj work.sim_mips work.glbl 
+ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
@@ -15,8 +15,6 @@ Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Arch
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 162460 KB
-Fuse CPU Usage: 186 ms
 Compiling module controller
 Compiling module regfile
 Compiling module alu
@@ -30,5 +28,5 @@ Compiling module glbl
 Time Resolution for simulation is 1ps.
 Compiled 10 Verilog Units
 Built simulation executable C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp2/sim_mips_isim_beh.exe
-Fuse Memory Usage: 171004 KB
-Fuse CPU Usage: 233 ms
+Fuse Memory Usage: 28960 KB
+Fuse CPU Usage: 453 ms
