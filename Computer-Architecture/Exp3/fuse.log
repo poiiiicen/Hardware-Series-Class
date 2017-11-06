@@ -1,4 +1,4 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp3/sim_mips_isim_beh.exe -prj C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp3/sim_mips_beh.prj sim_mips work.glbl 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp3/sim_mips_isim_beh.exe -prj C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp3/sim_mips_beh.prj work.sim_mips work.glbl 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
@@ -26,8 +26,7 @@ Compiling module mips
 Compiling module sim_mips
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
 Compiled 10 Verilog Units
 Built simulation executable C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp3/sim_mips_isim_beh.exe
-Fuse Memory Usage: 29128 KB
-Fuse CPU Usage: 390 ms
+Fuse Memory Usage: 29456 KB
+Fuse CPU Usage: 546 ms

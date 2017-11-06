@@ -538,7 +538,7 @@ LAB61:    xsi_set_current_line(182, ng0);
     t2 = (t0 + 14944);
     xsi_vlogvar_assign_value(t2, t3, 0, 0, 2);
     xsi_set_current_line(187, ng0);
-    t2 = (t0 + 3192);
+    t2 = (t0 + 3328);
     t3 = *((char **)t2);
     t2 = (t0 + 15104);
     xsi_vlogvar_assign_value(t2, t3, 0, 0, 1);
