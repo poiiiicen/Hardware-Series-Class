@@ -20,8 +20,9 @@ module datapath (
 	output reg is_branch_mem,  // whether instruction in MEM stage is jump/branch instruction
 	output reg [4:0] regw_addr_mem,  // register write address from MEM stage
 	output reg wb_wen_mem,  // register write enable signal feedback from MEM stage
-	//output reg [4:0] regw_addr_wb,
-	output reg is_load_exe,
+	
+	output reg is_load_exe,	// new added
+	
 	input wire [2:0] pc_src_ctrl,  // how would PC change to next
 	input wire imm_ext_ctrl,  // whether using sign extended to immediate data
 	input wire [1:0] exe_a_src_ctrl,  // data source of operand A for ALU
@@ -44,8 +45,9 @@ module datapath (
 	input wire id_en,
 	output reg id_valid,
 	// EXE signals
-	input wire [1:0] exe_fwd_a_ctrl,
-	input wire [1:0] exe_fwd_b_ctrl,
+	input wire [1:0] exe_fwd_a_ctrl,	// new added
+	input wire [1:0] exe_fwd_b_ctrl,	// new added
+	
 	input wire exe_rst,
 	input wire exe_en,
 	output reg exe_valid,
@@ -261,34 +263,38 @@ module datapath (
 	
 	always @(*) begin
 		is_branch_exe <= (pc_src_exe != PC_NEXT);
-		is_load_exe <= mem_ren_exe;
+		is_load_exe <= mem_ren_exe;	// new added
 	end
 	
 	assign
-		rs_rt_equal_exe = (data_rs_exe == data_rt_exe);
+		rs_rt_equal_exe = (mdata_rs_exe == mdata_rt_exe);
+	
+	reg [31:0] mdata_rs_exe, mdata_rt_exe;
 	
 	always @(*) begin
+		// new added
 		case (exe_fwd_a_exe)
-			2'b11: data_rs_exe = data_rs_exe;
-			2'b10: data_rs_exe = alu_out_wb;
-			2'b01: data_rs_exe = mem_din;
-			2'b00: data_rs_exe = alu_out_mem;
+			2'b11: mdata_rs_exe = data_rs_exe;
+			2'b10: mdata_rs_exe = regw_data_wb;
+			2'b01: mdata_rs_exe = mem_din;
+			2'b00: mdata_rs_exe = alu_out_mem;
 		endcase
 		case (exe_fwd_b_exe)
-			2'b11: data_rt_exe = data_rt_exe;
-			2'b10: data_rt_exe = alu_out_wb;
-			2'b01: data_rt_exe = mem_din;
-			2'b00: data_rt_exe = alu_out_exe;
+			2'b11: mdata_rt_exe = data_rt_exe;
+			2'b10: mdata_rt_exe = regw_data_wb;
+			2'b01: mdata_rt_exe = mem_din;
+			2'b00: mdata_rt_exe = alu_out_mem;
 		endcase
-		opa_exe = data_rs_exe;
-		opb_exe = data_rt_exe;
+		
+		opa_exe = mdata_rs_exe;
+		opb_exe = mdata_rt_exe;
 		case (exe_a_src_exe)
-			EXE_A_RS: opa_exe = data_rs_exe;
+			EXE_A_RS: opa_exe = mdata_rs_exe;
 			EXE_A_LINK: opa_exe = inst_addr_next_exe;
 			EXE_A_BRANCH: opa_exe = inst_addr_next_exe;
 		endcase
 		case (exe_b_src_exe)
-			EXE_B_RT: opb_exe = data_rt_exe;
+			EXE_B_RT: opb_exe = mdata_rt_exe;
 			EXE_B_IMM: opb_exe = data_imm_exe;
 			EXE_B_LINK: opb_exe = 32'h00000000;  // linked address is the next one of current instruction
 			EXE_B_BRANCH: opb_exe = {data_imm_exe[29:0], 2'b00};

@@ -21,7 +21,9 @@ module controller (/*AUTOARG*/
 	input wire is_branch_mem,  // whether instruction in MEM stage is jump/branch instruction
 	input wire [4:0] regw_addr_mem,  // register write address from MEM stage
 	input wire wb_wen_mem,  // register write enable signal feedback from MEM stage
-	input wire is_load_exe,
+	
+	input wire is_load_exe,	//new added
+	
 	output reg [2:0] pc_src,  // how would PC change to next
 	output reg imm_ext,  // whether using sign extended to immediate data
 	output reg [1:0] exe_a_src,  // data source of operand A for ALU
@@ -49,6 +51,7 @@ module controller (/*AUTOARG*/
 	output reg wb_rst,
 	output reg wb_en,
 	input wire wb_valid,
+	// new added
 	output wire [1:0] exe_fwd_a_ctrl,
 	output wire [1:0] exe_fwd_b_ctrl
 	);
@@ -245,27 +248,6 @@ module controller (/*AUTOARG*/
 	assign
 		exe_fwd_a_ctrl = forwarda,
 		exe_fwd_b_ctrl = forwardb;
-	/*
-	always @(*) begin
-		reg_stall = 0;
-		if (rs_used && addr_rs != 0) begin
-			if (regw_addr_exe == addr_rs && wb_wen_exe) begin
-				reg_stall = 1;
-			end
-			else if (regw_addr_mem == addr_rs && wb_wen_mem) begin
-				reg_stall = 1;
-			end
-		end
-		if (rt_used && addr_rt != 0) begin
-			if (regw_addr_exe == addr_rt && wb_wen_exe) begin
-				reg_stall = 1;
-			end
-			else if (regw_addr_mem == addr_rt && wb_wen_mem) begin
-				reg_stall = 1;
-			end
-		end
-	end
-	*/
 	
 	always @(*) begin
 		branch_stall = 0;
