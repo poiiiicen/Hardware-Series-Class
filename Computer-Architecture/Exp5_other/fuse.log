@@ -1,0 +1,47 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp5_other/sim_mips_top_isim_beh.exe -prj C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp5_other/sim_mips_top_beh.prj work.sim_mips_top work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp5_other/regfile.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp5_other/alu.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp5_other/displcd.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp5_other/datapath.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp5_other/controller.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp5_other/mips_core.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp5_other/inst_rom.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp5_other/dispaly.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp5_other/data_ram.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp5_other/clk_gen.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp5_other/mips_top.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp5_other/../../../../Documents/Tencent Files/1448917547/FileRecv/Computer-Architecture-master/Topic 4. Pipelined CPU resolving control hazard/sim_mips_top.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module dcm_sp_clock_divide_by_2
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_clock_lost
+Compiling module DCM_SP(CLKDV_DIVIDE=2,CLKFX_DIVI...
+Compiling module BUFG
+Compiling module clk_gen
+Compiling module lcd
+Compiling module genlcd
+Compiling module displcd
+Compiling module display
+Compiling module controller
+Compiling module regfile
+Compiling module alu
+Compiling module datapath
+Compiling module mips_core
+Compiling module inst_rom
+Compiling module data_ram
+Compiling module mips_top
+Compiling module sim_mips_top
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 21 Verilog Units
+Built simulation executable C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp5_other/sim_mips_top_isim_beh.exe
+Fuse Memory Usage: 33856 KB
+Fuse CPU Usage: 702 ms

@@ -1,0 +1,40 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/sim_mips_isim_beh.exe -prj C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/sim_mips_beh.prj work.sim_mips work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/regfile.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/alu.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/datapath.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/controller.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/mips_core.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/inst_rom.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/data_ram.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/mips.v" into library work
+Analyzing Verilog file "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/sim_mips.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/mips_core.v" Line 79: Port exe_a_src is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/mips_core.v" Line 146: Port exe_a_src_ctrl is not connected to this instance
+WARNING:HDLCompiler:189 - "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/mips.v" Line 38: Size mismatch in connection of port <debug_addr>. Formal port size is 6-bit while actual signal size is 7-bit.
+WARNING:HDLCompiler:189 - "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/mips_core.v" Line 88: Size mismatch in connection of port <exe_b_src>. Formal port size is 2-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/mips_core.v" Line 92: Size mismatch in connection of port <wb_addr_src>. Formal port size is 2-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/mips_core.v" Line 156: Size mismatch in connection of port <exe_b_src_ctrl>. Formal port size is 2-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/mips_core.v" Line 160: Size mismatch in connection of port <wb_addr_src_ctrl>. Formal port size is 2-bit while actual signal size is 1-bit.
+Completed static elaboration
+Compiling module controller
+Compiling module regfile
+Compiling module alu
+Compiling module datapath
+Compiling module mips_core
+Compiling module inst_rom
+Compiling module data_ram
+Compiling module mips
+Compiling module sim_mips
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 10 Verilog Units
+Built simulation executable C:/Users/poiii/Repos/Hardware-Series-Class/Computer-Architecture/Exp6_other/sim_mips_isim_beh.exe
+Fuse Memory Usage: 29300 KB
+Fuse CPU Usage: 749 ms
